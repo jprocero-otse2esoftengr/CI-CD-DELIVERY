@@ -152,7 +152,7 @@ pipeline {
       <testcase name="TestConfigurationCheck" classname="RegressionTest">
          <skipped message="No tests found - test configuration may need adjustment"/>
       </testcase>
-   </testsuites>
+   </testsuite>
 </testsuites>'''
                                 }
                                 
@@ -172,7 +172,7 @@ pipeline {
       <testcase name="TestExecutionFailure" classname="RegressionTest">
          <failure message="Test execution failed - result.xml was not generated"/>
       </testcase>
-   </testsuites>
+   </testsuite>
 </testsuites>'''
                                 junit 'regressiontest/result.xml'
                             }
