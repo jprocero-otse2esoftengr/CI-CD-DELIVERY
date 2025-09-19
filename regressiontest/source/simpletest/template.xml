@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases name="SimpleTest">
+   <property name="source.folder" value="${project.folder}/regressiontest/source/simpletest"/>
+   <property name="reference.folder" value="${project.folder}/regressiontest/reference/simpletest"/>
+   <property name="output.folder" value="${project.folder}/regressiontest/.$output/simpletest"/>
+   <options type="TestcaseCompare">
+      <ignore element="startTime"/>
+      <ignore element="stopTime"/>
+   </options>
+   <!-- Simple test configuration for pipeline validation -->
+</testcases>

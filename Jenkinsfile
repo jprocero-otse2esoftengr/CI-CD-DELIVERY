@@ -63,7 +63,7 @@ pipeline {
                 dir('regressiontest') {
                     bat """
                         echo Listing available test suites...
-                        java -jar ${REGTEST} -project . -list
+                        java -jar ${params.REGTEST} -project .. -list
                         echo.
                         echo Checking project structure...
                         dir /s testsuite
