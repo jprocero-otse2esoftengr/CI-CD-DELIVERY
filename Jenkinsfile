@@ -114,27 +114,22 @@ pipeline {
                         
                         echo.
                         echo Running all available regression tests...
+                        echo Command: java -jar "${params.REGTEST}" -project . -host ${params.BRIDGE_HOST} -port ${params.BRIDGE_PORT} -username ${params.BRIDGE_USER} -password ${params.BRIDGE_PASSWORD} -logfile regressiontest/result.xml
                         java -jar "${params.REGTEST}" -project . -host ${params.BRIDGE_HOST} -port ${params.BRIDGE_PORT} -username ${params.BRIDGE_USER} -password ${params.BRIDGE_PASSWORD} -logfile regressiontest/result.xml
                         
-                        if errorlevel 1 (
-                            echo Tests completed with errors
-                            echo Checking result.xml for details...
-                            if exist regressiontest\\result.xml (
-                                type regressiontest\\result.xml
-                            )
-                            exit /b 1
-                        )
-                        
-                        echo Tests completed successfully
+                        echo.
                         echo Checking if result.xml was created...
                         if exist regressiontest\\result.xml (
-                            echo result.xml found, size:
-                            dir regressiontest\\result.xml
-                            echo.
-                            echo Test results summary:
+                            echo result.xml found, displaying contents:
                             type regressiontest\\result.xml
                         ) else (
-                            echo WARNING: result.xml not found
+                            echo ERROR: result.xml was not created!
+                        )
+                        
+                        if errorlevel 1 (
+                            echo Tests completed with errors - exit code 1
+                        ) else (
+                            echo Tests completed successfully - exit code 0
                         )
                     """
                 }
@@ -150,18 +145,10 @@ pipeline {
                             if (resultContent.contains('tests="0"') || resultContent.contains('testsuite name=""')) {
                                 echo "No test results found in result.xml - this may indicate test configuration issues"
                                 echo "Result content: ${resultContent}"
-                                
-                                // Create a placeholder result for Jenkins reporting
-                                writeFile file: 'regressiontest/result.xml', text: '''<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-   <testsuite name="BuilderUML Regression Tests" tests="1" failures="0" errors="0" skipped="1">
-      <testcase name="TestConfigurationCheck" classname="RegressionTest">
-         <skipped message="Test configuration needs verification - check test cases and service deployment"/>
-      </testcase>
-   </testsuite>
-</testsuites>'''
+                                echo "This usually means the RegTestRunner couldn't find or execute any tests"
                             } else {
                                 echo "Test results found and processed successfully"
+                                echo "Result content: ${resultContent}"
                             }
                             
                             // Always publish results for Jenkins reporting
