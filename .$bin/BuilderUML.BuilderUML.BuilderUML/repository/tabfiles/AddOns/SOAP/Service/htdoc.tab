@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><SEI_HTTP_Service xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Locations>
+      <File path="${BRIDGESERVER_BIN}/../htdocs/images/favicon.ico" uri="/favicon.ico"/>
+      <Directory path="repository/htdocs" uri="/ui">
+         <Header name="Pragma" value="no-cache"/>
+         <Header name="Cache-control" value="no-cache"/>
+      </Directory>
+      <Directory path="${BRIDGESERVER_BIN}/../htdocs/libs" uri="/libs">
+         <Header name="Last-Modified"/>
+         <Header name="Cache-control" value="max-age=2592000, public"/>
+      </Directory>
+      <Directory path="../resource" uri="/resource">
+         <Header name="Pragma" value="no-cache"/>
+         <Header name="Cache-control" value="no-cache"/>
+      </Directory>
+   </Locations>
+   <MIMETypes>
+      <MIMEType name="image/x-icon">
+         <FileExtension>ico</FileExtension>
+      </MIMEType>
+      <MIMEType name="application/x-javascript">
+         <FileExtension>js</FileExtension>
+      </MIMEType>
+      <MIMEType name="application/json">
+         <FileExtension>jsn</FileExtension>
+         <FileExtension>json</FileExtension>
+      </MIMEType>
+      <MIMEType name="image/png">
+         <FileExtension>png</FileExtension>
+      </MIMEType>
+      <MIMEType name="image/gif">
+         <FileExtension>gif</FileExtension>
+      </MIMEType>
+      <MIMEType name="image/jpeg">
+         <FileExtension>jpeg</FileExtension>
+         <FileExtension>jpg</FileExtension>
+      </MIMEType>
+      <MIMEType name="image/svg+xml">
+         <FileExtension>svg</FileExtension>
+      </MIMEType>
+      <MIMEType name="text/plain">
+         <FileExtension>txt</FileExtension>
+         <FileExtension>log</FileExtension>
+      </MIMEType>
+      <MIMEType name="text/html">
+         <FileExtension>html</FileExtension>
+         <FileExtension>htm</FileExtension>
+      </MIMEType>
+      <MIMEType name="text/css">
+         <FileExtension>css</FileExtension>
+      </MIMEType>
+      <MIMEType name="text/cache-manifest">
+         <FileExtension>manifest</FileExtension>
+      </MIMEType>
+      <MIMEType name="application/x-shockwave-flash">
+         <FileExtension>swf</FileExtension>
+         <FileExtension>swfl</FileExtension>
+      </MIMEType>
+   </MIMETypes>
+   <Locations>
+      <File matchQuery="true" path="repository/wsdl/BuilderUMLService.wsdl" uri="/BuilderUMLService?wsdl">
+         <Header name="Pragma" value="no-cache"/>
+         <Header name="Cache-control" value="no-cache"/>
+      </File>
+      <File matchQuery="true" path="repository/wsdl/BuilderUMLService.wsdl" uri="/BuilderUMLService?WSDL">
+         <Header name="Pragma" value="no-cache"/>
+         <Header name="Cache-control" value="no-cache"/>
+      </File>
+      <File path="repository/wsdl/noNamespace.xsd" uri="/noNamespace.xsd">
+         <Header name="Pragma" value="no-cache"/>
+         <Header name="Cache-control" value="no-cache"/>
+      </File>
+   </Locations>
+   <MIMETypes>
+      <MIMEType name="text/xml">
+         <FileExtension>xsd</FileExtension>
+         <FileExtension>wsdl</FileExtension>
+      </MIMEType>
+   </MIMETypes>
+</SEI_HTTP_Service>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:element name="inputClass" type="inputClass"/>
+   <xs:element name="outputClass" type="outputClass"/>
+   <xs:complexType name="idClass">
+      <xs:attribute name="type" type="xs:string" use="required"/>
+      <xs:attribute name="value" type="xs:string" use="required"/>
+   </xs:complexType>
+   <xs:complexType name="inputClass">
+      <xs:attribute name="employeeNumber" type="xs:int" use="required"/>
+      <xs:attribute name="firstName" type="xs:string" use="required"/>
+      <xs:attribute name="lastName" type="xs:string" use="required"/>
+      <xs:attribute name="position" type="xs:string" use="required"/>
+   </xs:complexType>
+   <xs:complexType name="outputClass">
+      <xs:sequence>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="idArray" type="idClass"/>
+      </xs:sequence>
+      <xs:attribute name="employeeNumber" type="xs:int" use="required"/>
+      <xs:attribute name="employeeName" type="xs:string" use="required"/>
+      <xs:attribute name="age" type="xs:int" use="required"/>
+      <xs:attribute name="salary" type="xs:float" use="required"/>
+      <xs:attribute name="withBonus" type="xs:boolean" use="required"/>
+      <xs:attribute name="bonus" type="xs:float" use="required"/>
+      <xs:attribute name="numberOfIDs" type="xs:int" use="required"/>
+      <xs:attribute name="status" type="xs:string" use="required"/>
+      <xs:attribute name="message" type="xs:string" use="required"/>
+      <xs:attribute name="blockedReached" type="xs:boolean" use="required"/>
+      <xs:attribute name="validationPassed" type="xs:boolean" use="required"/>
+      <xs:attribute name="validationMessage" type="xs:string" use="required"/>
+      <xs:attribute name="auditId" type="xs:string" use="required"/>
+      <xs:attribute name="processedAt" type="xs:string" use="required"/>
+      <xs:attribute name="pos" type="xs:string" use="required"/>
+   </xs:complexType>
+   <xs:complexType name="NameOfPortType1">
+      <xs:annotation>
+         <xs:documentation>[Add documentation here]</xs:documentation>
+      </xs:annotation>
+   </xs:complexType>
+</xs:schema>

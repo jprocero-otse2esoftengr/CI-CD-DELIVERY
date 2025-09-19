@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Testcase operation="operation1" porttype="NameOfPortType1" service="BuilderUMLService">
+   <System>
+      <location>http://localhost:11114/BuilderUMLService/NameOfPortType1</location>
+      <documentStyle>document</documentStyle>
+      <soapAction>urn:operation1</soapAction>
+      <namespaces>
+         <SOAPNamespace>http://schemas.xmlsoap.org/wsdl/soap/</SOAPNamespace>
+         <SOAPNamespacePrefix>soap</SOAPNamespacePrefix>
+         <EnvelopeNamespace>http://schemas.xmlsoap.org/soap/envelope/</EnvelopeNamespace>
+         <EnvelopeNamespacePrefix>env</EnvelopeNamespacePrefix>
+         <EncodingNamespace>http://schemas.xmlsoap.org/soap/encoding/</EncodingNamespace>
+         <EncodingNamespacePrefix>soapenc</EncodingNamespacePrefix>
+      </namespaces>
+      <control>http://localhost:21119</control>
+   </System>
+   <Request>
+      <env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                    xmlns:ns1="urn:BuilderUMLService">
+         <env:Header>
+            <bridge:TransactionID xmlns:bridge="http://e2e.ch/bridge">trxID</bridge:TransactionID>
+         </env:Header>
+         <env:Body>
+            <inputClass employeeNumber="0" firstName="text" lastName="text" position="text"/>
+         </env:Body>
+      </env:Envelope>
+   </Request>
+</Testcase>

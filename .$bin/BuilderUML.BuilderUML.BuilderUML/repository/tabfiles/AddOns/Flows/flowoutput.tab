@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OutputMaps xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <OutputMap>
+      <Component>urn:Services.NameOfService1.NameOfPortType1.NameOfPortType1.operation1</Component>
+      <Map>om2071638018h-2086909913</Map>
+   </OutputMap>
+</OutputMaps>

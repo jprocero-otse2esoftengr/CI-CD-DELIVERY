@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP_Parser xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <MessageSet>
+      <Name>mset2071638018h-100248280</Name>
+      <Encoding>XML</Encoding>
+      <Message>urn:Services.NameOfService1.NameOfPortType1.NameOfPortType1.operation1</Message>
+   </MessageSet>
+</SOAP_Parser>

@@ -1,0 +1,7 @@
+[2025-09-17 18:30:32 +0800][0000000000][Info][Internal][SRVLM][2][Starting up. Runtime "2019.3" (win32-64), IP "192.168.1.9", Host "ots-jprocero", Process ID "24920".]
+[2025-09-17 18:30:32 +0800][0000000000][Info][Internal][LCELM][15][Using valid license.]
+[2025-09-17 18:30:32 +0800][0000000000][Info][Internal][ADDLM][5][Loaded addon "Flows" successfully.]
+[2025-09-17 18:30:32 +0800][0000000000][Info][Internal][ADDLM][5][Loaded addon "Functions" successfully.]
+[2025-09-17 18:30:32 +0800][0000000000][Info][Internal][ADDLM][5][Loaded addon "XML_Function" successfully.]
+[2025-09-17 18:30:32 +0800][0000000000][Info][Internal][ADDLM][5][Loaded addon "SOAP_AddOn" successfully.]
+[2025-09-17 18:30:32 +0800][0000000000][Info][Internal][SRVLM][3][Startup done.]

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PersistentStateSignal xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Signal>
+      <SignalName>urn:uml-signal:Base_Components.Advanced_Behavior.Persistent_State.AnySignal</SignalName>
+      <Type>urn:uml-signal:Base_Components.Advanced_Behavior.Persistent_State.AnySignal</Type>
+   </Signal>
+</PersistentStateSignal>

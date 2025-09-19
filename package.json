@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "e2e-bridge-cli": "^3.0.0"
+  }
+}

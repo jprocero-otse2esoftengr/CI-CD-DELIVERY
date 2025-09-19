@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+   <generic/>
+   <tracer/>
+   <compiler>
+      <webapp.overwrite type="java.lang.Boolean">true</webapp.overwrite>
+      <webapp.admin.host type="java.lang.String">localhost</webapp.admin.host>
+      <xmi.import type="java.io.File">../../Users/jproc/Downloads</xmi.import>
+      <webapp.admin.user type="java.lang.String"/>
+      <plugin.magicdraw.lastproject type="java.io.File">uml/BuilderUML.xml</plugin.magicdraw.lastproject>
+      <webapp.startup type="java.lang.Boolean">true</webapp.startup>
+      <webapp.admin.port type="java.lang.Integer">8080</webapp.admin.port>
+   </compiler>
+</project>

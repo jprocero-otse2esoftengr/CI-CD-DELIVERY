@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mappings xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Mapping id="im@2071638018h-1784287674">
+      <Set source="0" target="1"
+           targetDataItem="urn:Services.NameOfService1.Classes.inputClass"/>
+      <Set source="2" target="0"
+           targetDataItem="urn:Services.NameOfService1.Classes.idClass"/>
+   </Mapping>
+   <Mapping id="om@2071638018h-1784287674">
+      <Set source="1" target="1"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+      <Set source="2" target="0"
+           targetDataItem="urn:Services.NameOfService1.Classes.idClass"/>
+   </Mapping>
+   <Mapping id="om@2071638018h-981329032">
+      <Set source="1" target="0"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+   </Mapping>
+   <Mapping id="om@2071638018h1185220296">
+      <Set source="1" target="0"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+   </Mapping>
+   <Mapping id="im@2071638018h-576952005">
+      <Set source="0" target="0"
+           targetDataItem="urn:Services.NameOfService1.Classes.inputClass"/>
+   </Mapping>
+   <Mapping id="om@2071638018h-576952005">
+      <Set source="1" target="0"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+   </Mapping>
+   <Mapping id="om2071638018h-2086909913">
+      <Set source="1" target="0"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+   </Mapping>
+   <Mapping id="sm2071638018h-1784287674">
+      <Set source="create...f2071638018h-305305580.0_1" statement="1" target="1"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+      <Set source="0.0" statement="2" target="1.0"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+      <Set source="0.2" statement="3" target="1.1"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+      <Set source="0.3" statement="4" target="1.15"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+      <Set source="create...f2071638018h-305305580.1_1" statement="5" target="2"
+           targetDataItem="urn:Services.NameOfService1.Classes.idClass"/>
+      <Set source="value...f2071638018h-305305580.2_1" statement="6" target="2.0"
+           targetDataItem="urn:Services.NameOfService1.Classes.idClass"/>
+      <Set source="value...f2071638018h-305305580.3_1" statement="7" target="2.1"
+           targetDataItem="urn:Services.NameOfService1.Classes.idClass"/>
+      <Append source="2" statement="8" target="1.6"
+              targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+   </Mapping>
+   <Mapping id="sm2071638018h-981329032">
+      <Set source="create...f2071638018h1625116305.0_1" statement="1" target="1"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+      <Set source="value...f2071638018h1625116305.1_1" statement="2" target="1.8"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+      <Set source="value...f2071638018h1625116305.2_1" statement="3" target="1.9"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+      <Set source="value...f2071638018h1625116305.3_1" statement="4" target="1.10"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+   </Mapping>
+   <Mapping id="sm2071638018h1185220296">
+      <Set source="create...f2071638018h2039715482.0_1" statement="1" target="1"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+      <Set source="value...f2071638018h2039715482.1_1" statement="2" target="1.8"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+      <Set source="value...f2071638018h2039715482.2_1" statement="3" target="1.9"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+      <Set source="value...f2071638018h2039715482.3_1" statement="4" target="1.10"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+   </Mapping>
+   <Mapping id="sm2071638018h-576952005">
+      <Set source="create...f2071638018h-310306500.0_1" statement="1" target="1"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+      <Set source="value...f2071638018h-310306500.1_1" statement="2" target="1.11"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+      <Set source="value...f2071638018h-310306500.2_1" statement="3" target="1.12"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+      <Set source="0.1" statement="4" target="1.1"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+      <Set source="0.3" statement="5" target="1.15"
+           targetDataItem="urn:Services.NameOfService1.Classes.outputClass"/>
+   </Mapping>
+</Mappings>

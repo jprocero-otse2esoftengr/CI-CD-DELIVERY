@@ -1,0 +1,21 @@
+POST /BuilderUMLService/NameOfPortType1 null
+X-Bridge: NoErrorReturn
+Request-ID: operation1_1758098336391
+SOAPAction: urn:operation1
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+              xmlns:ns1="urn:BuilderUMLService"
+              xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <env:Header>
+      <bridge:Trace xmlns:bridge="http://e2e.ch/bridge" level="Moderate" maxSize="10"/>
+      <bridge:TransactionID xmlns:bridge="http://e2e.ch/bridge">trxID</bridge:TransactionID>
+   </env:Header>
+   <env:Body>
+      <inputClass employeeNumber="2"
+                  firstName="pee"
+                  lastName="kei"
+                  position="engr"/>
+   </env:Body>
+</env:Envelope>

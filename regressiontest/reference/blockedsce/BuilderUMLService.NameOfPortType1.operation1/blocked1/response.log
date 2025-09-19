@@ -1,0 +1,17 @@
+Server: E2E-Bridge/2019.3
+Pragma: no-cache
+Cache-control: no-cache
+Content-Type: text/xml; charset=utf-8
+Content-Length: 430
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <SOAP-ENV:Body>
+      <outputClass blockedReached="true"
+                   message="Last name not allowed"
+                   status="BLOCKED"/>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

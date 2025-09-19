@@ -1,0 +1,1232 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:ebp="http://e2e.ch/bridge/profile" enforcedImport="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1334833506675_583751_11200 E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677887489_628032_1 E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119882133263_554201_141 E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864426430_621818_2 E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_116374_4927 E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135071988137_920600_2 E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227865759515_297406_5256 E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195030989033_702066_2836 E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238768448406_311491_4401 E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862659_508204_814 E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278243483_527883_14042 E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278256610_632842_14047" fileid="_203154143" xmi:version="2.1" xmifile.id="_203154143">
+   <xmi:Documentation>
+      <xmi:exporter>MagicDraw UML</xmi:exporter>
+      <xmi:exporterVersion>18.0</xmi:exporterVersion>
+   </xmi:Documentation>
+   <uml:Model xmlns:uml="http://schema.omg.org/spec/UML/2.0" name="Data" xmi:id="_203154143|ROOT_MODEL_XMI.ID" xmi:type="uml:Model">
+      <ownedComment body="&lt;html&gt;&#xA;&lt;head&gt;&#xA;&lt;/head&gt;&#xA;&lt;body&gt;&#xA;&lt;h2&gt;Change Log&lt;/h2&gt;&#xA;&lt;table class=&#34;table&#34;&gt;&#xA;    &lt;tr&gt;&#xA;        &lt;th&gt;Date&lt;/th&gt;&#xA;        &lt;th&gt;Author&lt;/th&gt;&#xA;        &lt;th&gt;Version&lt;/th&gt;&#xA;        &lt;th&gt;Implementation&lt;/th&gt;&#xA;        &lt;th&gt;Note&lt;/th&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;&lt;/table&gt;&#xA;&lt;/body&gt;&#xA;&lt;/html&gt;"/>
+      <ownedMember name="Services" xmi:id="_203154143|_18_0_6_f4d0365_1753812330001_854467_13844" xmi:type="uml:Package">
+         <ownedMember name="NameOfService1" xmi:id="_203154143|_18_0_6_f4d0365_1753812330001_765278_13851" xmi:type="uml:Package">
+            <ownedMember name="Classes" xmi:id="_203154143|_18_0_6_f4d0365_1753812329997_322509_13834" xmi:type="uml:Package"/>
+            <ownedMember name="NameOfPortType1" xmi:id="_203154143|_18_0_6_f4d0365_1753812329997_287982_13818" xmi:type="uml:Package">
+               <ownedMember name="NameOfPortType1" xmi:id="_203154143|_18_0_6_f4d0365_1753812329997_356427_13819" xmi:type="uml:Class">
+                  <ebp:umlNamespace value="urn:Services.NameOfService1.NameOfPortType1"/>
+                  <ebp:E2ESOAPPortType base_Class="_203154143|_18_0_6_f4d0365_1753812329997_356427_13819" xmi:id="_203154143|_18_0_6_f4d0365_1753812329991_437083_13803"/>
+                  <ownedComment body="[Add documentation here]"/>
+                  <ownedBehavior isReentrant="false" name="Implementation of Operation 1" specification="_203154143|_18_0_6_f4d0365_1753812329991_791973_13810" xmi:id="_203154143|_18_0_6_f4d0365_1753812330001_742706_13843" xmi:type="uml:Activity">
+                     <edge source="_203154143|_18_0_6_f4d0365_1753812329997_675561_13832" target="_203154143|_18_0_6_f4d0365_1753812329997_304037_13830" visibility="public" xmi:id="_203154143|_18_0_6_f4d0365_1753812329997_194950_13828" xmi:type="uml:ControlFlow"/>
+                     <node name="Start" visibility="public" xmi:id="_203154143|_18_0_6_f4d0365_1753812329997_675561_13832" xmi:type="uml:InitialNode">
+                        <outgoing xmi:idref="_203154143|_18_0_6_f4d0365_1753812329997_194950_13828"/>
+                     </node>
+                     <node name="End" visibility="public" xmi:id="_203154143|_18_0_6_f4d0365_1753812329997_304037_13830" xmi:type="uml:ActivityFinalNode">
+                        <incoming xmi:idref="_203154143|_18_0_6_f4d0365_1753812329997_194950_13828"/>
+                     </node>
+                  </ownedBehavior>
+                  <ownedOperation isStatic="true" name="operation1" visibility="public" xmi:id="_203154143|_18_0_6_f4d0365_1753812329991_791973_13810" xmi:type="uml:Operation">
+                     <ebp:SOAPDocumentOperation base_Operation="_203154143|_18_0_6_f4d0365_1753812329991_791973_13810" xmi:id="_203154143|_18_0_6_f4d0365_1753812329997_69909_13835"/>
+                     <method xmi:idref="_203154143|_18_0_6_f4d0365_1753812330001_742706_13843"/>
+                     <ownedComment body="[Add documentation here]"/>
+                     <ownedParameter name="parameter1" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="_203154143|_18_0_6_f4d0365_1753812329997_56649_13833" xmi:type="uml:Parameter"/>
+                  </ownedOperation>
+               </ownedMember>
+            </ownedMember>
+         </ownedMember>
+      </ownedMember>
+      <ownedMember name="Aliases" xmi:id="_203154143|_18_0_6_f4d0365_1753812330001_111834_13853" xmi:type="uml:Package"/>
+   </uml:Model>
+<XMI_imports><idtable><file id="E2E_BRIDGE_BASE_COMPONENTS" name="E2E Bridge Base.xml" path="C:\Program Files\MagicDraw\modelLibraries\E2E Bridge Base.xml"/></idtable><ownedMember name="HeaderField" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_1763043c_1102534659306_636355_5" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_679022a_1074594035097_553073_93~E2E_BRIDGE_BASE_COMPONENTS|_1763043c_1102534659306_943960_6~E2E_BRIDGE_BASE_COMPONENTS|_1763043c_1102534659306_636355_5"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Add_Ons.HTTP"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/addOns/http"/>
+                  <ownedAttribute name="value" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_1763043c_1102534659306_781776_3" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_1763043c_1102534659306_781776_3" order="1" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_1763043c_1102534659306_781776_3_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="name" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_1763043c_1102534659306_888456_4" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_1763043c_1102534659306_888456_4" order="0" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_1763043c_1102534659306_888456_4_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="Parameter" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1330948627616_985428_11144" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_679022a_1074594035097_553073_93~E2E_BRIDGE_BASE_COMPONENTS|_1763043c_1102534659306_943960_6~E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1330948627616_985428_11144"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Add_Ons.HTTP"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/addOns/http"/>
+                  <ownedAttribute name="value" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1330948627620_78733_11145" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1330948627620_78733_11145" order="1" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1330948627620_78733_11145_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="name" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1330948627621_318728_11146" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1330948627621_318728_11146" order="0" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1330948627621_318728_11146_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="Any" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_types~E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any"/>
+            <ebp:umlNamespace value="urn:Base_Types"/>
+            <ownedOperation isStatic="true" name="cast" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227868177953_95858_5341" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227868188000_342699_5343" xmi:type="uml:Parameter"/>
+               <ownedParameter name="any" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227868192875_713957_5344" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="classToXML" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396856904_726963_1164" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Blob" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396856904_498448_1163" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="classToXML" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1300954800112_451107_10840" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Blob" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1300954800114_331742_10841" xmi:type="uml:Parameter"/>
+               <ownedParameter name="options" type="E2E_BRIDGE_BASE_COMPONENTS|_16_9_24400562_1350903117418_750798_12972" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1300954825963_990256_10843" xmi:type="uml:Parameter">
+                  
+                  <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                  <upperValue value="-1" xmi:type="uml:LiteralUnlimitedNatural"/>
+               </ownedParameter>
+               
+            </ownedOperation>
+            <ownedOperation name="classToXMLFragment" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1300955086696_561576_10840" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Blob" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1300955086697_504242_10841" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="copy" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392950771_210648_580" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392950771_316046_579" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="exists" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_f98036e_1209021505359_61258_4385" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_f98036e_1209021528796_215243_4387" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="getMetaAttributes" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238773421015_452846_4425" xmi:type="uml:Operation">
+               <ownedParameter direction="return" name="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Array" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238773421015_323690_4427" xmi:type="uml:Parameter">
+                  <ebp:E2EArray arrayElement="E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238768448406_311491_4401" base_Element="E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238773421015_323690_4427" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238773421015_323690_4427_E2EArray"/>
+               </ownedParameter>
+               
+            </ownedOperation>
+            <ownedOperation name="staticTypeOf" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1228296074000_880743_5121" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1228296074015_270737_5123" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="typeOf" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1228296033609_467368_5117" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1228296053828_108406_5119" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="mapEqualNames" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_b2002db_1310128847208_391774_11143" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_b2002db_1310128847208_898654_11144" xmi:type="uml:Parameter"/>
+               <ownedParameter name="anyComplexType1" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_b2002db_1310128847208_349443_11145" xmi:type="uml:Parameter"/>
+               <ownedParameter name="..." visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_b2002db_1310128921185_765327_11148" xmi:type="uml:Parameter">
+                  
+               </ownedParameter>
+               
+            </ownedOperation>
+            <ownedOperation name="classToJSON" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_8780274_1311932179204_864669_11119" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_8780274_1311932179204_59315_11120" xmi:type="uml:Parameter"/>
+               <ownedParameter name="options" type="E2E_BRIDGE_BASE_COMPONENTS|_Base_Components__Add_Ons__JSON__ComposerOptions" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1426691554514_678939_14113" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="classToXMLFragment" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1350976317472_204615_12469" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Blob" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1350976317472_77324_12470" xmi:type="uml:Parameter"/>
+               <ownedParameter name="options" type="E2E_BRIDGE_BASE_COMPONENTS|_16_9_24400562_1350903117418_750798_12972" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1350976322947_41814_12472" xmi:type="uml:Parameter">
+                  
+                  <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                  <upperValue value="-1" xmi:type="uml:LiteralUnlimitedNatural"/>
+               </ownedParameter>
+               
+            </ownedOperation>
+         </ownedMember><ownedMember name="ContextElement" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227865759515_297406_5256" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_679022a_1101821327770_766521_197~E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227865745546_961054_5254~E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227865759515_297406_5256"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Basic_Behavior.ServiceContext"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/basicBehavior/serviceContext"/>
+                  <ownedAttribute name="name" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227865759515_911692_5257" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227865759515_911692_5257" order="0" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227865759515_911692_5257_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="value" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227865759515_557942_5258" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227865759515_557942_5258" order="1" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227865759515_557942_5258_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="Request" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278243483_527883_14042" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_679022a_1074594035097_553073_93~E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278129700_719904_14036~E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278243483_527883_14042"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Add_Ons.REST"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/addOns/rest"/>
+                  <ownedAttribute isReadOnly="true" name="method" type="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278385744_721403_14067" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278269158_726734_14053" xmi:type="uml:Property">
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute isReadOnly="true" name="headers" type="E2E_BRIDGE_BASE_COMPONENTS|_1763043c_1102534659306_636355_5" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278682622_968770_14109" xmi:type="uml:Property">
+                     <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="-1" xmi:type="uml:LiteralUnlimitedNatural"/>
+                  </ownedAttribute>
+                  <ownedAttribute isReadOnly="true" name="queryString" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278783585_549636_14119" xmi:type="uml:Property">
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute isReadOnly="true" name="queryParameters" type="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1330948627616_985428_11144" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278816118_179590_14124" xmi:type="uml:Property">
+                     <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="-1" xmi:type="uml:LiteralUnlimitedNatural"/>
+                  </ownedAttribute>
+                  <ownedAttribute isReadOnly="true" name="body" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Blob" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278850258_192275_14129" xmi:type="uml:Property">
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute isReadOnly="true" name="path" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278859466_369097_14134" xmi:type="uml:Property">
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute isReadOnly="true" name="pathParameters" type="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312523592652_42263_11244" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278875005_971088_14139" xmi:type="uml:Property">
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="Map" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312523592652_42263_11244" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_679022a_1101821327770_766521_197~E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312537354374_751791_11225~E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312523592652_42263_11244"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Basic_Behavior.Map"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/basicBehavior/map"/>
+                  <ownedAttribute name="id" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="private" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_b2002db_1313125338322_248737_11135" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_16_9_b2002db_1313125338322_248737_11135" order="0" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_b2002db_1313125338322_248737_11135_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute isReadOnly="true" name="mapEntries" type="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312537407727_178234_11270" visibility="private" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1353578560993_111386_12650" xmi:type="uml:Property">
+                     <ebp:E2EAttribute base_Property="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1353578560993_111386_12650" order="1.0" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1353578560993_111386_12650_E2EAttribute"/>
+                     <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="-1" xmi:type="uml:LiteralUnlimitedNatural"/>
+                  </ownedAttribute>
+                  <ownedOperation name="setMapValue" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312523763504_967475_11284" xmi:type="uml:Operation">
+                     <ownedParameter name="key" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312523776748_85652_11286" xmi:type="uml:Parameter"/>
+                     <ownedParameter name="value" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312523829273_113464_11287" xmi:type="uml:Parameter"/>
+                     <ownedParameter direction="return" name="oldValue" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1313383632991_994491_11162" xmi:type="uml:Parameter"/>
+                     
+                  </ownedOperation>
+                  <ownedOperation name="getMapValue" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312523845310_44128_11288" xmi:type="uml:Operation">
+                     <ownedParameter name="key" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312523845310_383566_11289" xmi:type="uml:Parameter"/>
+                     <ownedParameter direction="return" name="value" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312523845310_133584_11290" xmi:type="uml:Parameter"/>
+                     
+                  </ownedOperation>
+                  <ownedOperation name="getMapEntries" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312559300772_622256_11488" xmi:type="uml:Operation">
+                     <ownedParameter direction="return" name="entries" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Array" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312559300772_7345_11490" xmi:type="uml:Parameter">
+                        <ebp:E2EArrayParameter arrayElement="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312537407727_178234_11270" base_Element="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312559300772_7345_11490" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312559300772_7345_11490_E2EArrayParameter"/>
+                     </ownedParameter>
+                     
+                  </ownedOperation>
+                  <ownedOperation name="removeMapValue" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1313383666923_904963_11163" xmi:type="uml:Operation">
+                     <ownedParameter name="key" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1313383666923_384464_11164" xmi:type="uml:Parameter"/>
+                     <ownedParameter direction="return" name="removedValue" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1313397014171_934601_11136" xmi:type="uml:Parameter"/>
+                     
+                  </ownedOperation>
+               </ownedMember><ownedMember name="Group" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1334833506675_583751_11200" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_679022a_1101821327770_766521_197~E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1334833506669_749612_11199~E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1334833506675_583751_11200"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Basic_Behavior.Select"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/basicBehavior/select"/>
+                  <ownedAttribute name="key" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1334833507456_823135_11240" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1334833507456_823135_11240" order="0" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1334833507456_823135_11240_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="values" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1334833507457_530327_11241" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1334833507457_530327_11241" order="1" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1334833507457_530327_11241_E2EOrdered"/>
+                     <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="-1" xmi:type="uml:LiteralUnlimitedNatural"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="XMLComposeOptions" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_24400562_1350903117418_750798_12972" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_679022a_1101821327770_766521_197~E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518110557_691625_27~E2E_BRIDGE_BASE_COMPONENTS|_16_9_24400562_1350903117418_750798_12972"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Basic_Behavior.XML"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/basicBehavior/xml"/>
+                  <ownedAttribute name="prolog" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_24400562_1350903117426_356482_12984" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_16_9_24400562_1350903117426_356482_12984" order="0" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_24400562_1350903117426_356482_12984_E2EOrdered"/>
+                     
+                     <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="-1" xmi:type="uml:LiteralUnlimitedNatural"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="timezone" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_24400562_1350903310144_342049_13043" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_16_9_24400562_1350903310144_342049_13043" order="1" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_24400562_1350903310144_342049_13043_E2EOrdered"/>
+                     
+                     <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralUnlimitedNatural"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="dateFormatString" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1353520814607_292654_12629" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1353520814607_292654_12629" order="2" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1353520814607_292654_12629_E2EOrdered"/>
+                     
+                     <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralUnlimitedNatural"/>
+                     <defaultValue value="%F" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1353520864416_825803_12636" xmi:type="uml:LiteralString"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="encoding" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1426845291896_413256_14000" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1426845291896_413256_14000" order="3" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1426845291896_413256_14000_E2EOrdered"/>
+                     <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralUnlimitedNatural"/>
+                     <defaultValue value="UTF-8" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_18_0_3_1c8504c0_1426846125615_263735_17238" xmi:type="uml:LiteralString"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="rootName" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_18_0_5_30ce0604_1524561451072_626825_20060" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_18_0_5_30ce0604_1524561451072_626825_20060" order="4" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_18_0_5_30ce0604_1524561451072_626825_20060_E2EOrdered"/>
+                     
+                     <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralUnlimitedNatural"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="rootNamespace" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_18_0_5_30ce0604_1524561507016_962459_20065" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_18_0_5_30ce0604_1524561507016_962459_20065" order="5" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_18_0_5_30ce0604_1524561507016_962459_20065_E2EOrdered"/>
+                     
+                     <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralUnlimitedNatural"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="Attribute" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238768448406_311491_4401" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_12_0_c3202fe_1175593018670_41398_1362~E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1232604914000_340666_5119~E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238768448406_311491_4401"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Advanced_Behavior.Meta"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/advancedBehavior/meta"/>
+                  <ownedAttribute name="name" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238768448421_426235_4402" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238768448421_426235_4402" order="1" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238768448421_426235_4402_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="value" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238768448421_395677_4403" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238768448421_395677_4403" order="2" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238768448421_395677_4403_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="Float" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Float" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_types~E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Float"/>
+            <ebp:umlNamespace value="urn:Base_Types"/>
+            
+            <generalization general="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108390136573_836859_311"/>
+            <ownedOperation name="convertToString" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396162738_124078_977" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396162738_245067_976" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="convertToInteger" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108397053720_218685_1184" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108397053720_896827_1183" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="printFloatExpression" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193833437171_300317_1988" xmi:type="uml:Operation">
+               <ownedParameter name="format" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193833437187_214837_1989" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" name="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193833437187_275116_1990" xmi:type="uml:Parameter"/>
+               <ownedParameter name="locale" type="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_491448_1989" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193839141781_270040_2141" xmi:type="uml:Parameter">
+                  <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                  <upperValue value="1" xmi:type="uml:LiteralUnlimitedNatural"/>
+               </ownedParameter>
+            </ownedOperation>
+            <ownedOperation name="power" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202909430048_2216_4296" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Float" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202909430048_171524_4301" xmi:type="uml:Parameter"/>
+               <ownedParameter name="exponent" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202909430048_870942_4302" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="absolute" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202909430048_410899_4297" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Float" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202909430048_402288_4303" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="floor" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202909537186_191415_4311" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202909560080_603028_4313" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="round" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202909577521_632684_4314" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Float" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202909668479_682080_4316" xmi:type="uml:Parameter"/>
+               <ownedParameter name="base" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Float" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202911317627_49523_4320" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="ceil" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202911256065_649126_4317" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202911256065_749077_4318" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation isStatic="true" name="random" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227866937906_197273_5286" xmi:type="uml:Operation">
+               <ownedParameter direction="return" name="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Float" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227866937906_201667_5287" xmi:type="uml:Parameter"/>
+               <ownedParameter name="minimum" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Float" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227866937906_714203_5288" xmi:type="uml:Parameter"/>
+               <ownedParameter name="maximum" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Float" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227866937906_665565_5289" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="castValue" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1311227515361_321108_11426" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1311227515361_585318_11427" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+         </ownedMember><ownedMember name="DateTime" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/DateTime" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_types~E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/DateTime"/>
+            <ebp:umlNamespace value="urn:Base_Types"/>
+            
+            <generalization general="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108390127026_374818_256"/>
+            <ownedOperation name="convertToString" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396164566_440746_1013" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396164566_426423_1012" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="convertDateTimeToStructure" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864447495_716378_7" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119882133263_554201_141" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864447495_619433_6" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="convertDateTimeToTimeTicks" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_24400562_1121405124828_273984_1" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_24400562_1121405124828_685249_0" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="printDateTimeExpression" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137678075757_448724_7" xmi:type="uml:Operation">
+               <ownedParameter name="format" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137678120142_419681_8" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" name="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137678075757_244273_6" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="printDateTimeExpression" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1235752948265_672686_5267" xmi:type="uml:Operation">
+               <ownedParameter name="format" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1235752948265_701690_5268" xmi:type="uml:Parameter"/>
+               <ownedParameter name="timeZone" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1235752958937_866476_5271" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" name="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1235752948265_456744_5269" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="printLocalDateTimeExpression" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1235752738781_676944_5126" xmi:type="uml:Operation">
+               <ownedParameter name="format" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1235752738781_188912_5127" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" name="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1235752738796_902020_5128" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="add" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1228296237234_895006_5261" xmi:type="uml:Operation">
+               <ownedParameter direction="return" name="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/DateTime" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1228296237234_81558_5263" xmi:type="uml:Parameter"/>
+               <ownedParameter name="duration" type="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_116374_4927" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1228296261015_861965_5265" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="subtract" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1228296280812_178360_5266" xmi:type="uml:Operation">
+               <ownedParameter direction="return" name="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/DateTime" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1228296280812_294399_5267" xmi:type="uml:Parameter"/>
+               <ownedParameter name="duration" type="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_116374_4927" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1228296280812_183977_5268" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="difference" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1228296304062_981948_5270" xmi:type="uml:Operation">
+               <ownedParameter name="dateTime" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/DateTime" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1228296304062_820957_5271" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" name="duration" type="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_116374_4927" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1228296304062_596325_5272" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+         </ownedMember><ownedMember name="SecurityTokenBasic" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072110664_244733_37" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_12_0_c3202fe_1175593018670_41398_1362~E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135071952227_472977_0~E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072110664_244733_37"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Advanced_Behavior.Security"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/advancedBehavior/security"/>
+                  <generalization general="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072097850_920294_21" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072127415_696204_53"/>
+                  <ownedAttribute name="userName" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072905874_850118_72" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072905874_850118_72" order="1" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072905874_850118_72_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="password" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072905874_132650_73" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072905874_132650_73" order="2" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072905874_132650_73_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="Role" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073224486_712998_119" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_12_0_c3202fe_1175593018670_41398_1362~E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135071952227_472977_0~E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073224486_712998_119"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Advanced_Behavior.Security"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/advancedBehavior/security"/>
+                  <ownedAttribute name="name" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073233643_37716_135" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073233643_37716_135" order="1" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073233643_37716_135_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="Number" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_32690623_1269957822265_26650_9884" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_12_0_c3202fe_1175593018670_41398_1362~E2E_BRIDGE_BASE_COMPONENTS|_16_6_32690623_1260340651875_313311_9449~E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_32690623_1269957822265_26650_9884"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Advanced_Behavior.UI"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/advancedBehavior/ui"/>
+                  <generalization general="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Float" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_32690623_1269957829156_627553_9904"/>
+               </ownedMember><ownedMember name="SecurityToken" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072097850_920294_21" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_12_0_c3202fe_1175593018670_41398_1362~E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135071952227_472977_0~E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072097850_920294_21"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Advanced_Behavior.Security"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/advancedBehavior/security"/>
+                  <ownedAttribute name="type" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072173278_199756_65" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072173278_199756_65" order="1" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072173278_199756_65_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="isVerified" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072697065_319929_68" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072697065_319929_68" order="2" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072697065_319929_68_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="Callstack" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1329758817808_541819_11134" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_679022a_1101821327770_766521_197~E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677871100_579654_0~E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1329758817808_541819_11134"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Basic_Behavior.Error"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/basicBehavior/error"/>
+                  <ownedAttribute name="type" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1329758817808_145827_11136" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1329758817808_145827_11136" order="0" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1329758817808_145827_11136_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="details" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1329758817808_699469_11137" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1329758817808_699469_11137" order="1" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1329758817808_699469_11137_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="Array" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Array" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_types~E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Array"/>
+            <ebp:umlNamespace value="urn:Base_Types"/>
+            <ownedTemplateSignature xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_12_0_1763043c_1166519888150_182352_531" xmi:type="uml:RedefinableTemplateSignature">
+               <ownedParameter xmi:id="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250498_785859_857" xmi:type="uml:ClassifierTemplateParameter">
+                  <ownedParameteredElement name="element" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_12_0_1763043c_1166519889713_943680_696" xmi:type="uml:Class">
+                     <ebp:umlNamespace value="urn:Base_Types.Array"/>
+                     <ebp:xmlNamespace value="urn:Base_Types"/>
+                     <ebp:XML base_Element="E2E_BRIDGE_BASE_COMPONENTS|_12_0_1763043c_1166519889713_943680_696" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_12_0_1763043c_1166519889713_943680_696_XML" xmlNamespace="urn:Base_Types"/>
+                  </ownedParameteredElement>
+               </ownedParameter>
+            </ownedTemplateSignature>
+            <generalization general="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108390103294_598386_146"/>
+            <ownedOperation name="count" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108397551257_448177_1286" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108397551257_751541_1285" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="concatArrays" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1197384565562_795209_2866" xmi:type="uml:Operation">
+               <ownedParameter name="array1" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Array" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1197384565562_904557_2868" xmi:type="uml:Parameter"/>
+               <ownedParameter name="..." visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1197384565578_560044_2869" xmi:type="uml:Parameter">
+                  
+               </ownedParameter>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Array" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1197384565578_782357_2870" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="buildMap" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312527563578_693155_11438" xmi:type="uml:Operation">
+               <ownedParameter name="keyName" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312527606527_340240_11440" xmi:type="uml:Parameter">
+                  
+               </ownedParameter>
+               <ownedParameter direction="return" name="map" type="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312523592652_42263_11244" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312537655035_423711_11335" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="join" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1328882669168_701144_11134" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1328882669175_303922_11135" xmi:type="uml:Parameter"/>
+               <ownedParameter name="separator" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1328882702468_308923_11137" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+         </ownedMember><ownedMember name="NumbersLocale" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_491448_1989" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_679022a_1101821327770_766521_197~E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_491448_1989"/>
+               <ebp:umlNamespace value="urn:Base_Components.Basic_Behavior"/>
+               <ebp:xmlNamespace value="http://e2e.ch/bridge/basicBehavior"/>
+               
+               
+               <ownedAttribute name="negativeSign" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_335739_1990" xmi:type="uml:Property">
+                  <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_335739_1990" order="0" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_335739_1990_E2EOrdered"/>
+                  
+                  <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                  <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+               </ownedAttribute>
+               <ownedAttribute name="positiveSign" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_961162_1991" xmi:type="uml:Property">
+                  <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_961162_1991" order="1" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_961162_1991_E2EOrdered"/>
+                  
+                  <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                  <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+               </ownedAttribute>
+               <ownedAttribute name="thousandsSeparator" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_453787_1992" xmi:type="uml:Property">
+                  <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_453787_1992" order="2" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_453787_1992_E2EOrdered"/>
+                  
+                  <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                  <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+               </ownedAttribute>
+               <ownedAttribute name="decimalPoint" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_746031_1993" xmi:type="uml:Property">
+                  <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_746031_1993" order="3" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_746031_1993_E2EOrdered"/>
+                  
+                  <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                  <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+               </ownedAttribute>
+               <ownedAttribute name="currencySymbol" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_958093_1994" xmi:type="uml:Property">
+                  <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_958093_1994" order="4" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_958093_1994_E2EOrdered"/>
+                  
+                  <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                  <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+               </ownedAttribute>
+            </ownedMember><ownedMember name="EMailString" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_32690623_1269536142171_666907_9983" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_12_0_c3202fe_1175593018670_41398_1362~E2E_BRIDGE_BASE_COMPONENTS|_16_6_32690623_1260340651875_313311_9449~E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_32690623_1269536142171_666907_9983"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Advanced_Behavior.UI"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/advancedBehavior/ui"/>
+                  <generalization general="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_32690623_1269536214625_164312_10073"/>
+               </ownedMember><ownedMember name="SOAPHeaderElement" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195030989033_702066_2836" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_679022a_1074594035097_553073_93~E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195031697053_70220_2866~E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195030989033_702066_2836"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Add_Ons.SOAP"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/addOns/soap"/>
+                  <ownedAttribute name="namespace" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195030989033_907278_2837" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195030989033_907278_2837" order="1" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195030989033_907278_2837_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="name" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195030989033_989880_2838" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195030989033_989880_2838" order="0" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195030989033_989880_2838_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="encoding" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195031364292_344709_2846" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195031364292_344709_2846" order="2" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195031364292_344709_2846_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="role" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195031366605_679045_2850" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195031366605_679045_2850" order="3" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195031366605_679045_2850_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="mustunderstand" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195031368589_424508_2854" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195031368589_424508_2854" order="4" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195031368589_424508_2854_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="relay" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195031370730_324996_2858" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195031370730_324996_2858" order="5" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195031370730_324996_2858_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="header" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Blob" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195031372964_262757_2862" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195031372964_262757_2862" order="6" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195031372964_262757_2862_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="Handle" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862659_508204_814" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_12_0_c3202fe_1175593018670_41398_1362~E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493834375_103812_811~E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862659_508204_814"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Advanced_Behavior.Persistent_State"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/advancedBehavior/persistentState"/>
+                  
+                  <ownedAttribute name="objectID" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862737_626802_832" xmi:type="uml:Property">
+                     <ebp:E2EAttribute base_Property="E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862737_626802_832" order="1.0" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862737_626802_832_E2EAttribute"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="classifier" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862737_197956_833" xmi:type="uml:Property">
+                     <ebp:E2EAttribute base_Property="E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862737_197956_833" order="2.0" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862737_197956_833_E2EAttribute"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="owner" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862752_711984_834" xmi:type="uml:Property">
+                     <ebp:E2EAttribute base_Property="E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862752_711984_834" order="3.0" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862752_711984_834_E2EAttribute"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="conversationID" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1204123341031_864042_4278" xmi:type="uml:Property">
+                     <ebp:E2EAttribute base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1204123341031_864042_4278" order="4.0" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1204123341031_864042_4278_E2EAttribute"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="Attribute" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073425388_574690_183" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_12_0_c3202fe_1175593018670_41398_1362~E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135071952227_472977_0~E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073425388_574690_183"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Advanced_Behavior.Security"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/advancedBehavior/security"/>
+                  <ownedAttribute name="name" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073599695_262635_202" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073599695_262635_202" order="1" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073599695_262635_202_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="value" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073599711_601204_204" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073599711_601204_204" order="3" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073599711_601204_204_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="PhoneUSString" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_32690623_1269958063078_981732_10505" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_12_0_c3202fe_1175593018670_41398_1362~E2E_BRIDGE_BASE_COMPONENTS|_16_6_32690623_1260340651875_313311_9449~E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_32690623_1269958063078_981732_10505"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Advanced_Behavior.UI"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/advancedBehavior/ui"/>
+                  <generalization general="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_32690623_1269958067578_931584_10525"/>
+               </ownedMember><ownedMember name="HTTPMethod" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278385744_721403_14067" xmi:type="uml:Enumeration"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_679022a_1074594035097_553073_93~E2E_BRIDGE_BASE_COMPONENTS|_1763043c_1102534659306_943960_6~E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278385744_721403_14067"/>
+                  <ebp:umlNamespace value="urn:uml-enumeration:Base_Components.Add_Ons.HTTP"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/addOns/http"/>
+                  <ownedLiteral name="DELETE" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278403889_192342_14071" xmi:type="uml:EnumerationLiteral"/>
+                  <ownedLiteral name="GET" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278526294_697484_14076" xmi:type="uml:EnumerationLiteral"/>
+                  <ownedLiteral name="HEAD" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278534480_897366_14081" xmi:type="uml:EnumerationLiteral"/>
+                  <ownedLiteral name="OPTIONS" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278540993_523568_14086" xmi:type="uml:EnumerationLiteral"/>
+                  <ownedLiteral name="PATCH" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278550908_550721_14091" xmi:type="uml:EnumerationLiteral"/>
+                  <ownedLiteral name="POST" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278557907_816248_14096" xmi:type="uml:EnumerationLiteral"/>
+                  <ownedLiteral name="PUT" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278565832_230380_14101" xmi:type="uml:EnumerationLiteral"/>
+               </ownedMember><ownedMember name="XMLParseOptions" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_450044_70" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_679022a_1101821327770_766521_197~E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518110557_691625_27~E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_450044_70"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Basic_Behavior.XML"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/basicBehavior/xml"/>
+                  <ownedAttribute name="validation" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_838026_55" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_838026_55" order="1" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_838026_55_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="validationDynamic" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_364995_56" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_364995_56" order="2" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_364995_56_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="validationSchema" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_677031_57" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_677031_57" order="3" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_677031_57_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="validationSchemaFullChecking" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_973628_58" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_973628_58" order="4" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_973628_58_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="nonvalidatingLoadExternalDTD" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_645432_59" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_645432_59" order="5" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_645432_59_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="standardURIConformant" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_600229_60" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_600229_60" order="6" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_600229_60_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="validationIdentityConstraintChecking" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_939611_61" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_939611_61" order="7" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_939611_61_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="validationSchemaSkipDTDValidation" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_451730_62" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_451730_62" order="8" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_451730_62_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="disableDefaultEntityResolution" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_284133_63" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_284133_63" order="9" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_284133_63_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="namespaces" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_763993_65" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_763993_65" order="10" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_763993_65_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="namespacePrefixes" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_832049_66" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_832049_66" order="11" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_832049_66_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="externalSchemaLocation" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_713555_67" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_713555_67" order="12" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_713555_67_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="externalNoNamespaceSchemaLocation" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_415671_68" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_415671_68" order="13" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_415671_68_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="scannerName" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_227278_69" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_227278_69" order="14" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_227278_69_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="entityExpansionLimit" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1474623099141_832788_14887" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1474623099141_832788_14887" order="15" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1474623099141_832788_14887_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="Blob" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Blob" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_types~E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Blob"/>
+            <ebp:umlNamespace value="urn:Base_Types"/>
+            <generalization general="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108390089998_805267_91"/>
+            <ownedOperation name="transcodeToString" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108393162817_454738_665" xmi:type="uml:Operation">
+               <ownedParameter name="charset" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108393162817_417853_663" xmi:type="uml:Parameter">
+                  
+               </ownedParameter>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108393162817_560985_664" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="subblob" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108395996426_912221_883" xmi:type="uml:Operation">
+               <ownedParameter name="startIndex" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108395996426_212759_879" xmi:type="uml:Parameter"/>
+               <ownedParameter name="length" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108395996426_315825_880" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Blob" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108395996426_385257_881" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="blobLength" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396077722_404995_937" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396077722_894141_936" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="convertToString" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396113191_701781_957" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396113191_15251_956" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="xmlToClass" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_1763043c_1114508302085_864492_47" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_1763043c_1114508302085_291932_46" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="xmlToClass" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1310575896067_945394_11091" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1310575896067_766536_11092" xmi:type="uml:Parameter"/>
+               <ownedParameter name="options" type="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_450044_70" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1310575910960_146226_11094" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="convertBinaryToInteger" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1213688318140_550829_4469" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1213688318156_597356_4471" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="convertToHex" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_b2002db_1291725274968_54900_12584" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_b2002db_1291725274984_623244_12585" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="concatBlob" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_32690623_1296034989921_422183_12865" xmi:type="uml:Operation">
+               <ownedParameter name="blob1" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Blob" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_32690623_1296034989937_393336_12866" xmi:type="uml:Parameter"/>
+               <ownedParameter name="..." visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_32690623_1296034989937_192080_12867" xmi:type="uml:Parameter">
+                  
+               </ownedParameter>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Blob" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_32690623_1296034989937_506722_12868" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+         </ownedMember><ownedMember name="Principal" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135071988137_920600_2" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_12_0_c3202fe_1175593018670_41398_1362~E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135071952227_472977_0~E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135071988137_920600_2"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Advanced_Behavior.Security"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/advancedBehavior/security"/>
+                  <ownedAttribute name="userID" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072042346_408124_19" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072042346_408124_19" order="1" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072042346_408124_19_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="attributes" type="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073425388_574690_183" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073691138_106979_335" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073691138_106979_335" order="4" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073691138_106979_335_E2EOrdered"/>
+                     <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="-1" xmi:type="uml:LiteralUnlimitedNatural"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="securityTokens" type="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072097850_920294_21" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072997629_465913_76" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072997629_465913_76" order="2" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135072997629_465913_76_E2EOrdered"/>
+                     <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="-1" xmi:type="uml:LiteralUnlimitedNatural"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="roles" type="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073224486_712998_119" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073286443_588537_140" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073286443_588537_140" order="3" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135073286443_588537_140_E2EOrdered"/>
+                     <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="-1" xmi:type="uml:LiteralUnlimitedNatural"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="String" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_types~E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"/>
+            <ebp:umlNamespace value="urn:Base_Types"/>
+            
+            <generalization general="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108390159727_779239_451"/>
+            <ownedOperation name="concat" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108390276109_983104_547" xmi:type="uml:Operation">
+               <ownedParameter name="string1" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108390263250_446387_543" xmi:type="uml:Parameter"/>
+               <ownedParameter name="..." type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108390263250_515956_545" xmi:type="uml:Parameter">
+                  
+               </ownedParameter>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108390263250_586218_546" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="normalizeSpaces" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108390450704_947634_34" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108390450704_369746_33" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="substring" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108391136348_532366_159" xmi:type="uml:Operation">
+               <ownedParameter name="startIndex" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108391179855_661684_161" xmi:type="uml:Parameter"/>
+               <ownedParameter name="length" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108391183699_149555_166" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108391179870_346129_162" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="stringLength" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108391326984_300368_191" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108391326984_149180_189" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="findString" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108391493518_189022_266" xmi:type="uml:Operation">
+               <ownedParameter name="stringToFind" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108391493518_411485_262" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108391493518_863189_265" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="findPattern" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108391647964_162604_325" xmi:type="uml:Operation">
+               <ownedParameter name="regExpPattern" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108391647964_314914_322" xmi:type="uml:Parameter">
+                  
+               </ownedParameter>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108391647964_100280_323" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="findPatterns" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108391913075_965916_362" xmi:type="uml:Operation">
+               <ownedParameter name="regExpPattern" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108391913075_32329_360" xmi:type="uml:Parameter">
+                  
+               </ownedParameter>
+               <ownedParameter direction="return" name="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Array" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108391913075_770782_361" xmi:type="uml:Parameter">
+                  <ebp:E2EArray arrayElement="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" base_Element="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108391913075_770782_361" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108391913075_770782_361_E2EArray"/>
+               </ownedParameter>
+               
+            </ownedOperation>
+            <ownedOperation name="toLower" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392096220_461972_386" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392096220_934847_385" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="toUpper" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392153309_733904_406" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392153309_622638_405" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="replace" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392207039_497337_427" xmi:type="uml:Operation">
+               <ownedParameter name="regExpPattern" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392207039_468263_425" xmi:type="uml:Parameter">
+                  
+               </ownedParameter>
+               <ownedParameter name="replacement" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392278428_145299_429" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392207039_876907_426" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="split" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392338735_201004_458" xmi:type="uml:Operation">
+               <ownedParameter name="regExpPattern" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392338735_811012_456" xmi:type="uml:Parameter">
+                  
+               </ownedParameter>
+               <ownedParameter direction="return" name="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Array" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392338735_461481_457" xmi:type="uml:Parameter">
+                  <ebp:E2EArray arrayElement="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" base_Element="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392338735_461481_457" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392338735_461481_457_E2EArray"/>
+               </ownedParameter>
+               
+            </ownedOperation>
+            <ownedOperation name="substringAfter" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392467122_374530_496" xmi:type="uml:Operation">
+               <ownedParameter name="searchString" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392467122_714019_494" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392467122_158393_495" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="substringBefore" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392554276_792681_518" xmi:type="uml:Operation">
+               <ownedParameter name="searchString" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392554276_10235_516" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392554276_684327_517" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="transcodeToBlob" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392609872_973858_575" xmi:type="uml:Operation">
+               <ownedParameter name="charset" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392701033_651917_577" xmi:type="uml:Parameter">
+                  
+               </ownedParameter>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Blob" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108392609872_520512_574" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="convertToBoolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108393219586_77333_691" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108393219586_155150_690" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="convertToFloat" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108393538570_85601_713" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Float" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108393538570_463499_712" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="convertToDateTime" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108394676088_319080_735" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/DateTime" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108394676088_90780_734" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="convertToInteger" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108395060275_956539_771" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108395060275_667332_770" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="convertBase64ToBlob" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108395392864_159805_806" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Blob" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108395392864_497907_805" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="convertDurationToDateTime" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396391507_698838_1057" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/DateTime" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396391507_113918_1056" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="xmlToClass" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396695337_467273_1129" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396695337_691750_1128" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="xmlToClass" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1310575977874_634990_11095" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1310575977874_388895_11096" xmi:type="uml:Parameter"/>
+               <ownedParameter name="options" type="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1159518193019_450044_70" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1310575977874_683969_11097" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="parseDateTimeExpression" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137678189917_287485_10" xmi:type="uml:Operation">
+               <ownedParameter name="format" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137678214119_729062_11" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/DateTime" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137678189917_18291_9" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="parseLocalDateTimeExpression" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1354000675642_495865_12636" xmi:type="uml:Operation">
+               <ownedParameter name="format" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1354000675650_135271_12637" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/DateTime" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1354000675652_802694_12638" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="padLeft" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137678309346_829843_13" xmi:type="uml:Operation">
+               <ownedParameter name="character" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137678346508_720895_14" xmi:type="uml:Parameter"/>
+               <ownedParameter name="length" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137678359750_36553_15" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137678309346_429818_12" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="padRight" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137678390637_178112_19" xmi:type="uml:Operation">
+               <ownedParameter name="character" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137678390637_945369_16" xmi:type="uml:Parameter"/>
+               <ownedParameter name="length" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137678390637_615646_17" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137678390637_328796_18" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="parseFloatExpression" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193834281578_739532_2128" xmi:type="uml:Operation">
+               <ownedParameter name="format" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193834281578_86342_2129" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" name="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Float" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193834281578_698180_2130" xmi:type="uml:Parameter"/>
+               <ownedParameter name="locale" type="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_491448_1989" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193839080734_163350_1998" xmi:type="uml:Parameter">
+                  <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                  <upperValue value="1" xmi:type="uml:LiteralUnlimitedNatural"/>
+               </ownedParameter>
+            </ownedOperation>
+            <ownedOperation name="parseIntegerExpression" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193834282000_963322_2131" xmi:type="uml:Operation">
+               <ownedParameter name="format" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193834282000_274901_2132" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" name="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193834282015_296234_2133" xmi:type="uml:Parameter"/>
+               <ownedParameter name="locale" type="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_491448_1989" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193839121312_207453_2135" xmi:type="uml:Parameter">
+                  <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                  <upperValue value="1" xmi:type="uml:LiteralUnlimitedNatural"/>
+               </ownedParameter>
+            </ownedOperation>
+            <ownedOperation name="capture" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1194958347203_554098_2000" xmi:type="uml:Operation">
+               <ownedParameter name="regExpPattern" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1194958347203_294089_2002" xmi:type="uml:Parameter">
+                  
+               </ownedParameter>
+               <ownedParameter direction="return" name="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Array" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1194958347203_745877_2003" xmi:type="uml:Parameter">
+                  <ebp:E2EArray arrayElement="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" base_Element="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1194958347203_745877_2003" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1194958347203_745877_2003_E2EArray"/>
+               </ownedParameter>
+               
+            </ownedOperation>
+            <ownedOperation name="startsWith" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202480368985_995778_4278" xmi:type="uml:Operation">
+               <ownedParameter name="start" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202480389016_779172_4280" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202480557328_511955_4281" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="endsWith" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202480831873_434323_4283" xmi:type="uml:Operation">
+               <ownedParameter name="end" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202480842451_305309_4285" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202480857216_794334_4286" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="escapeURI" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_f98036e_1279796090599_750043_10659" xmi:type="uml:Operation">
+               <ownedParameter name="codepage" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_f98036e_1279796308821_336248_10678" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_f98036e_1279796217898_538687_10676" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="unescapeURI" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_f98036e_1279797889908_830_10682" xmi:type="uml:Operation">
+               <ownedParameter name="codepage" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_f98036e_1279797889908_27873_10684" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_f98036e_1279797889908_686377_10685" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="convertHexToBlob" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_b2002db_1291725334265_268170_12957" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Blob" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_b2002db_1291725334265_465790_12958" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="castValue" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1311227183954_331688_11285" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1311227183970_976432_11286" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="jsonToClass" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_8780274_1311932232078_807181_11482" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_8780274_1311932232078_589718_11483" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="match" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1347270775796_379440_12147" xmi:type="uml:Operation">
+               <ownedParameter name="regExpPattern" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1347270775804_210766_12148" xmi:type="uml:Parameter">
+                  
+               </ownedParameter>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1347270775805_758642_12149" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="toASCII" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1377069086856_657185_13275" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1377069086864_477575_13276" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="removeAccents" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1377069374338_135515_13638" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1377069374340_951977_13639" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="transliterate" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1377069457609_618297_13641" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1377069457610_779030_13642" xmi:type="uml:Parameter"/>
+               <ownedParameter name="rule" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1377069643929_227097_13644" xmi:type="uml:Parameter">
+                  
+               </ownedParameter>
+               
+            </ownedOperation>
+         </ownedMember><ownedMember name="DurationStructure" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_116374_4927" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_679022a_1101821327770_766521_197~E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119881611588_432604_0~E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_116374_4927"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Basic_Behavior.DateTime"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/basicBehavior/dateTime"/>
+                  
+                  <ownedAttribute name="years" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_844639_4928" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_844639_4928" order="0" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_844639_4928_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="months" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_760220_4929" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_760220_4929" order="1" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_760220_4929_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="days" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_214074_4930" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_214074_4930" order="2" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_214074_4930_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="hours" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_546003_4931" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_546003_4931" order="3" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_546003_4931_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="minutes" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_851492_4932" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_851492_4932" order="4" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_851492_4932_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="seconds" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_258958_4933" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_258958_4933" order="5" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_258958_4933_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="microseconds" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_368356_4934" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_368356_4934" order="6" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_368356_4934_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="URLString" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_32690623_1269536120484_967974_9982" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_12_0_c3202fe_1175593018670_41398_1362~E2E_BRIDGE_BASE_COMPONENTS|_16_6_32690623_1260340651875_313311_9449~E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_32690623_1269536120484_967974_9982"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Advanced_Behavior.UI"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/advancedBehavior/ui"/>
+                  <generalization general="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_32690623_1269536235437_127176_10094"/>
+               </ownedMember><ownedMember name="Boolean" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_types~E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean"/>
+            <ebp:umlNamespace value="urn:Base_Types"/>
+            
+            <generalization general="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108390116824_793978_201"/>
+            <ownedOperation name="convertToString" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396165269_962123_1031" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396165269_109145_1030" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="not" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396566706_785347_1078" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396566706_883559_1077" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="convertToInteger" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108397055032_812521_1202" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108397055032_173011_1201" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="condition" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108397364692_893812_1262" xmi:type="uml:Operation">
+               <ownedParameter direction="inout" name="branch1" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108397457365_386230_1264" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="inout" name="branch2" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108397457365_739836_1265" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108397364692_607839_1261" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+         </ownedMember><ownedMember name="DateTimeOutputStructure" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119882133263_554201_141" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_679022a_1101821327770_766521_197~E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119881611588_432604_0~E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119882133263_554201_141"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Basic_Behavior.DateTime"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/basicBehavior/dateTime"/>
+                  <generalization general="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864426430_621818_2" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119882164636_629782_199"/>
+                  <ownedAttribute name="weekday" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119865947909_789666_132" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119865947909_789666_132" order="7" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119865947909_789666_132_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="Response" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278256610_632842_14047" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_679022a_1074594035097_553073_93~E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278129700_719904_14036~E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278256610_632842_14047"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Add_Ons.REST"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/addOns/rest"/>
+                  <ownedAttribute name="headers" type="E2E_BRIDGE_BASE_COMPONENTS|_1763043c_1102534659306_636355_5" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448279087356_354393_14162" xmi:type="uml:Property">
+                     <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="-1" xmi:type="uml:LiteralUnlimitedNatural"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="httpStatus" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448279137186_970689_14172" xmi:type="uml:Property">
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="responseObject" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448282802862_701128_14178" xmi:type="uml:Property">
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="Entry" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312537407727_178234_11270" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_679022a_1101821327770_766521_197~E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312537354374_751791_11225~E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312537407727_178234_11270"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Basic_Behavior.Map"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/basicBehavior/map"/>
+                  <ownedAttribute isReadOnly="true" name="key" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312537419271_401625_11271" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312537419271_401625_11271" order="0" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312537419271_401625_11271_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute isReadOnly="true" name="value" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312537426167_17811_11272" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312537426167_17811_11272" order="1" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1312537426167_17811_11272_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="Date" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_32690623_1269957681250_96641_9781" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_12_0_c3202fe_1175593018670_41398_1362~E2E_BRIDGE_BASE_COMPONENTS|_16_6_32690623_1260340651875_313311_9449~E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_32690623_1269957681250_96641_9781"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Advanced_Behavior.UI"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/advancedBehavior/ui"/>
+                  <generalization general="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/DateTime" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_32690623_1269957695015_47164_9801"/>
+               </ownedMember><ownedMember name="ComposerOptions" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_Base_Components__Add_Ons__JSON__ComposerOptions" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_679022a_1074594035097_553073_93~E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1426684538757_723076_14000~E2E_BRIDGE_BASE_COMPONENTS|_Base_Components__Add_Ons__JSON__ComposerOptions"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Add_Ons.JSON"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/addOns/json"/>
+                  <ownedAttribute name="keepNulls" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1426684603698_101345_14057" xmi:type="uml:Property">
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="compact" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_18_0_5_1c8504c0_1523430563008_685213_20048" xmi:type="uml:Property">
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+               </ownedMember><ownedMember name="DateTimeStructure" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864426430_621818_2" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_679022a_1101821327770_766521_197~E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119881611588_432604_0~E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864426430_621818_2"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Basic_Behavior.DateTime"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/basicBehavior/dateTime"/>
+                  
+                  <ownedAttribute name="years" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864574211_640005_8" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864574211_640005_8" order="0" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864574211_640005_8_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="months" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864741633_928123_109" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864741633_928123_109" order="1" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864741633_928123_109_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="days" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864742008_100710_111" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864742008_100710_111" order="2" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864742008_100710_111_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="hours" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864743930_321899_113" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864743930_321899_113" order="3" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864743930_321899_113_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="minutes" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864744196_579325_115" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864744196_579325_115" order="4" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864744196_579325_115_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="seconds" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864744618_948739_117" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864744618_948739_117" order="5" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864744618_948739_117_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="microseconds" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864889363_329594_121" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864889363_329594_121" order="6" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864889363_329594_121_E2EOrdered"/>
+                     
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedOperation name="convertStructureToDateTime" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864649437_435036_102" xmi:type="uml:Operation">
+                     <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/DateTime" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864729367_523775_105" xmi:type="uml:Parameter"/>
+                     
+                  </ownedOperation>
+               </ownedMember><ownedMember name="CreditcardString" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_32690623_1269957856718_177144_9931" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_12_0_c3202fe_1175593018670_41398_1362~E2E_BRIDGE_BASE_COMPONENTS|_16_6_32690623_1260340651875_313311_9449~E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_32690623_1269957856718_177144_9931"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Advanced_Behavior.UI"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/advancedBehavior/ui"/>
+                  <generalization general="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_6_2_32690623_1269957997656_729648_10253"/>
+               </ownedMember><ownedMember name="Integer" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_types~E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer"/>
+            <ebp:umlNamespace value="urn:Base_Types"/>
+            
+            <generalization general="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108390145291_516985_396"/>
+            <ownedOperation name="convertToString" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396163738_484410_995" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108396163738_658926_994" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="convertToFloat" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108397323254_455185_1222" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Float" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_24400562_1108397323254_140008_1221" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="printIntegerExpression" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193833502343_968684_2125" xmi:type="uml:Operation">
+               <ownedParameter name="format" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193833502343_406604_2126" xmi:type="uml:Parameter"/>
+               <ownedParameter direction="return" name="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193833502343_481662_2127" xmi:type="uml:Parameter"/>
+               <ownedParameter name="locale" type="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193837445562_491448_1989" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_32690623_1193839134171_458860_2138" xmi:type="uml:Parameter">
+                  <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                  <upperValue value="1" xmi:type="uml:LiteralUnlimitedNatural"/>
+               </ownedParameter>
+            </ownedOperation>
+            <ownedOperation name="modulo" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202906784942_888714_4278" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202906809195_382932_4280" xmi:type="uml:Parameter"/>
+               <ownedParameter name="divisor" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202906817899_966579_4281" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="absolute" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202908758485_164574_4283" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202908848482_69483_4285" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="power" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202908879768_668020_4286" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202909013037_284058_4288" xmi:type="uml:Parameter"/>
+               <ownedParameter name="exponent" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1202909019709_410787_4289" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation isStatic="true" name="random" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227866826328_401712_5279" xmi:type="uml:Operation">
+               <ownedParameter direction="return" name="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227866842593_162099_5281" xmi:type="uml:Parameter"/>
+               <ownedParameter name="minimum" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227866863625_365333_5282" xmi:type="uml:Parameter"/>
+               <ownedParameter name="maximum" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227866901281_421642_5285" xmi:type="uml:Parameter"/>
+            </ownedOperation>
+            <ownedOperation name="convertTimeTicksToDateTime" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_24400562_1121405253406_472160_7" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/DateTime" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_24400562_1121405253406_714534_6" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+            <ownedOperation name="castValue" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1311227470387_664969_11423" xmi:type="uml:Operation">
+               <ownedParameter direction="return" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1311227470387_802309_11424" xmi:type="uml:Parameter"/>
+               
+            </ownedOperation>
+         </ownedMember><ownedMember name="Error" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677887489_628032_1" xmi:type="uml:Class"><ebp:errorLocation value="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167~E2E_BRIDGE_BASE_COMPONENTS|e2e_bridge_base_components~E2E_BRIDGE_BASE_COMPONENTS|_679022a_1101821327770_766521_197~E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677871100_579654_0~E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677887489_628032_1"/>
+                  <ebp:umlNamespace value="urn:Base_Components.Basic_Behavior.Error"/>
+                  <ebp:xmlNamespace value="http://e2e.ch/bridge/basicBehavior/error"/>
+                  <ownedAttribute name="category" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677896316_872855_2" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677896316_872855_2" order="1" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677896316_872855_2_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="domain" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677926532_865201_3" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677926532_865201_3" order="2" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677926532_865201_3_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="code" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677949514_178556_4" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677949514_178556_4" order="3" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677949514_178556_4_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="description" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677962716_629422_5" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677962716_629422_5" order="4" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677962716_629422_5_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="response" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Blob" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_b2002db_1238767739650_459438_5126" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_b2002db_1238767739650_459438_5126" order="5" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_b2002db_1238767739650_459438_5126_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="detail" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Any" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_b2002db_1238767757289_240428_5127" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_b2002db_1238767757289_240428_5127" order="6" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_b2002db_1238767757289_240428_5127_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="callstack" type="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1329758817808_541819_11134" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1329759020641_100851_11506" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1329759020641_100851_11506" order="7" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1329759020641_100851_11506_E2EOrdered"/>
+                     <lowerValue value="0" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="-1" xmi:type="uml:LiteralUnlimitedNatural"/>
+                  </ownedAttribute>
+                  <ownedAttribute name="timestamp" type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/DateTime" visibility="public" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1462969436502_127074_14527" xmi:type="uml:Property">
+                     <ebp:E2EOrdered base_Property="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1462969436502_127074_14527" order="8" xmi:id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1462969436502_127074_14527_E2EOrdered"/>
+                     <lowerValue value="1" xmi:type="uml:LiteralInteger"/>
+                     <upperValue value="1" xmi:type="uml:LiteralInteger"/>
+                  </ownedAttribute>
+               </ownedMember></XMI_imports></xmi:XMI>

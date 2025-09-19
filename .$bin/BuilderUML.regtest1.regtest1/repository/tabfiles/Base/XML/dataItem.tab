@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <DataItem id="urn:Services.NameOfService1.Classes.idClass"/>
+   <DataItem id="urn:Services.NameOfService1.Classes.inputClass"/>
+   <DataItem id="urn:Services.NameOfService1.Classes.outputClass"/>
+   <DataItem id="urn:Services.NameOfService1.NameOfPortType1.NameOfPortType1"/>
+   <DataItem id="EMPTY_DATA_ITEM"/>
+   <DataItem id="imsg2071638018h-2086909913">
+      <XMLElement index="0" name="inputClass"/>
+   </DataItem>
+   <DataItem id="omsg2071638018h-2086909913">
+      <XMLElement index="0" name="outputClass"/>
+   </DataItem>
+   <DataItem id="imsg2071638018h-1784287674">
+      <XMLElement index="0" name="idClass"/>
+      <XMLElement index="1" name="inputClass"/>
+   </DataItem>
+   <DataItem id="omsg2071638018h-1784287674">
+      <XMLElement index="0" name="idClass"/>
+      <XMLElement index="1" name="outputClass"/>
+   </DataItem>
+   <DataItem id="omsg2071638018h-981329032">
+      <XMLElement index="0" name="outputClass"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.HTTP.HeaderField"
+             namespace="http://e2e.ch/bridge/addOns/http"/>
+   <DataItem id="urn:Base_Components.Add_Ons.HTTP.Parameter"
+             namespace="http://e2e.ch/bridge/addOns/http"/>
+   <DataItem id="urn:Base_Components.Add_Ons.Java.MapEntry"
+             namespace="http://e2e.ch/bridge/addOns/java"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JavaScript.JavaScript"
+             namespace="http://e2e.ch/bridge/addOns/javaScript"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSBlobMessage"
+             namespace="http://e2e.ch/bridge/addOns/jms">
+      <XMLElement index="0" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLElement index="1" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLElement index="2" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLElement index="3" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLElement index="4" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLElement index="5" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLElement index="6" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLElement index="7" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="8" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="9" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="10" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="11" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="12" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="13" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="14" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="15" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="16" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="17" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="18" namespace="http://e2e.ch/bridge/addOns/jms"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSConnectionInfo"
+             namespace="http://e2e.ch/bridge/addOns/jms"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSListener"
+             namespace="http://e2e.ch/bridge/addOns/jms"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSMessage"
+             namespace="http://e2e.ch/bridge/addOns/jms"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSReceiveParameter"
+             namespace="http://e2e.ch/bridge/addOns/jms"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSSendParameter"
+             namespace="http://e2e.ch/bridge/addOns/jms"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSSessionParameter"
+             namespace="http://e2e.ch/bridge/addOns/jms"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSStringMessage"
+             namespace="http://e2e.ch/bridge/addOns/jms">
+      <XMLElement index="0" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLElement index="1" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLElement index="2" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLElement index="3" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLElement index="4" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLElement index="5" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLElement index="6" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLElement index="7" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="8" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="9" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="10" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="11" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="12" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="13" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="14" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="15" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="16" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="17" namespace="http://e2e.ch/bridge/addOns/jms"/>
+      <XMLAttribute index="18" namespace="http://e2e.ch/bridge/addOns/jms"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSBooleanProperty"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSByteProperty"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSDoubleProperty"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSFloatProperty"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSIntegerProperty"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSLongProperty"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSShortProperty"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSStringProperty"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JSON.ComposerOptions"
+             namespace="http://e2e.ch/bridge/addOns/json"/>
+   <DataItem id="urn:Base_Components.Add_Ons.LDAP.LDAPEntry"
+             namespace="http://e2e.ch/bridge/addOns/ldap"/>
+   <DataItem id="urn:Base_Components.Add_Ons.POP3.POP3Authentication"
+             namespace="http://e2e.ch/bridge/addOns/pop3"/>
+   <DataItem id="urn:Base_Components.Add_Ons.POP3.POP3Message"
+             namespace="http://e2e.ch/bridge/addOns/pop3"/>
+   <DataItem id="urn:Base_Components.Add_Ons.REST.AdapterResponse"
+             namespace="http://e2e.ch/bridge/addOns/rest"/>
+   <DataItem id="urn:Base_Components.Add_Ons.REST.NoResponseBody"
+             namespace="http://e2e.ch/bridge/addOns/rest"/>
+   <DataItem id="urn:Base_Components.Add_Ons.REST.Request"
+             namespace="http://e2e.ch/bridge/addOns/rest"/>
+   <DataItem id="urn:Base_Components.Add_Ons.REST.RequestOptions"
+             namespace="http://e2e.ch/bridge/addOns/rest"/>
+   <DataItem id="urn:Base_Components.Add_Ons.REST.Response"
+             namespace="http://e2e.ch/bridge/addOns/rest"/>
+   <DataItem id="urn:Base_Components.Add_Ons.REST.Utilities"
+             namespace="http://e2e.ch/bridge/addOns/rest"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.EDI_DC40">
+      <XMLElement index="0"/>
+      <XMLElement index="1"/>
+      <XMLElement index="2"/>
+      <XMLElement index="3"/>
+      <XMLElement index="4"/>
+      <XMLElement index="5"/>
+      <XMLElement index="6"/>
+      <XMLElement index="7"/>
+      <XMLElement index="8"/>
+      <XMLElement index="9"/>
+      <XMLElement index="10"/>
+      <XMLElement index="11"/>
+      <XMLElement index="12"/>
+      <XMLElement index="13"/>
+      <XMLElement index="14"/>
+      <XMLElement index="15"/>
+      <XMLElement index="16"/>
+      <XMLElement index="17"/>
+      <XMLElement index="18"/>
+      <XMLElement index="19"/>
+      <XMLElement index="20"/>
+      <XMLElement index="21"/>
+      <XMLElement index="22"/>
+      <XMLElement index="23"/>
+      <XMLElement index="24"/>
+      <XMLElement index="25"/>
+      <XMLElement index="26"/>
+      <XMLElement index="27"/>
+      <XMLElement index="28"/>
+      <XMLElement index="29"/>
+      <XMLElement index="30" xsdType="time"/>
+      <XMLElement index="31"/>
+      <XMLElement index="32"/>
+      <XMLElement index="33"/>
+      <XMLElement index="34"/>
+      <XMLElement index="35"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.EDI_DD40">
+      <XMLElement index="0"/>
+      <XMLElement index="1"/>
+      <XMLElement index="2"/>
+      <XMLElement index="3"/>
+      <XMLElement index="4"/>
+      <XMLElement index="5"/>
+      <XMLElement index="6"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.IDOC"
+             namespace="http://e2e.ch/bridge/addOns/sap"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.IDOCs_FlatFile"
+             namespace="http://e2e.ch/bridge/addOns/sap"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.IDOC_FlatFile"
+             namespace="http://e2e.ch/bridge/addOns/sap"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.Tables"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.TABLES"
+             namespace="http://e2e.ch/bridge/addOns/sap">
+      <XMLElement index="0" xsdType="string"/>
+      <XMLElement index="1" xsdType="string"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SMTP.SMTPMessage"
+             namespace="http://e2e.ch/bridge/addOns/smtp">
+      <XMLElement index="0" xsdType="string"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.Code"
+             namespace="http://e2e.ch/bridge/addOns/soap"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.HTTPTransport"
+             namespace="http://e2e.ch/bridge/addOns/soap"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.Reason"
+             namespace="http://e2e.ch/bridge/addOns/soap"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.SOAPFault"
+             namespace="http://e2e.ch/bridge/addOns/soap"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.SOAPFault_12"
+             namespace="http://e2e.ch/bridge/addOns/soap"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.SOAPHeaderElement"
+             namespace="http://e2e.ch/bridge/addOns/soap"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.Utilities"
+             namespace="http://e2e.ch/bridge/addOns/soap"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SQL.SQLAuthentication"
+             namespace="http://e2e.ch/bridge/addOns/sql"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SQL.SQLConfiguration"
+             namespace="http://e2e.ch/bridge/addOns/sql"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SQL.SQLHandle"
+             namespace="http://e2e.ch/bridge/addOns/sql"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SQL.Types.CLOB"/>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.Authentication"
+             namespace="http://e2e.ch/bridge/addOns/url"/>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.Certificate"
+             namespace="http://e2e.ch/bridge/addOns/url"/>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.HeaderField"
+             namespace="http://e2e.ch/bridge/addOns/url"/>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.Key"
+             namespace="http://e2e.ch/bridge/addOns/url"/>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.Option"
+             namespace="http://e2e.ch/bridge/addOns/url"/>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.Proxy"
+             namespace="http://e2e.ch/bridge/addOns/url"/>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.SSL"
+             namespace="http://e2e.ch/bridge/addOns/url"/>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.URLMessage"
+             namespace="http://e2e.ch/bridge/addOns/url">
+      <XMLElement index="8" xsdType="string"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.XSLT.XSLTParameter"
+             namespace="http://e2e.ch/bridge/addOns/xslt"/>
+   <DataItem id="urn:Base_Components.Add_Ons.XSLT.XSLTParameters"
+             namespace="http://e2e.ch/bridge/addOns/xslt"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Meta.ActionInterceptorMessage"
+             namespace="http://e2e.ch/bridge/advancedBehavior/meta"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Meta.Attribute"
+             namespace="http://e2e.ch/bridge/advancedBehavior/meta"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Meta.Parameter"
+             namespace="http://e2e.ch/bridge/advancedBehavior/meta"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Persistent_State.BPMNTask"
+             namespace="http://e2e.ch/bridge/advancedBehavior/persistentState"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Persistent_State.ErrorContext"
+             namespace="http://e2e.ch/bridge/advancedBehavior/persistentState"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Persistent_State.Event"
+             namespace="http://e2e.ch/bridge/advancedBehavior/persistentState"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Persistent_State.Handle"
+             namespace="http://e2e.ch/bridge/advancedBehavior/persistentState"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Persistent_State.StateInfo"
+             namespace="http://e2e.ch/bridge/advancedBehavior/persistentState"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.Attribute"
+             namespace="http://e2e.ch/bridge/advancedBehavior/security"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.InterceptorMessage"
+             namespace="http://e2e.ch/bridge/advancedBehavior/security"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.Parameter"
+             namespace="http://e2e.ch/bridge/advancedBehavior/security"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.PostprocessorMessage"
+             namespace="http://e2e.ch/bridge/advancedBehavior/security"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.PreprocessorMessage"
+             namespace="http://e2e.ch/bridge/advancedBehavior/security"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.Principal"
+             namespace="http://e2e.ch/bridge/advancedBehavior/security"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.Role"
+             namespace="http://e2e.ch/bridge/advancedBehavior/security"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.SecurityToken"
+             namespace="http://e2e.ch/bridge/advancedBehavior/security"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.SecurityTokenBasic"
+             namespace="http://e2e.ch/bridge/advancedBehavior/security">
+      <XMLAttribute index="0" namespace="http://e2e.ch/bridge/advancedBehavior/security"/>
+      <XMLAttribute index="1" namespace="http://e2e.ch/bridge/advancedBehavior/security"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.CreditcardString"
+             namespace="http://e2e.ch/bridge/advancedBehavior/ui"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.Date"
+             namespace="http://e2e.ch/bridge/advancedBehavior/ui"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.DOMNode"
+             namespace="http://e2e.ch/bridge/advancedBehavior/ui"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.EMailString"
+             namespace="http://e2e.ch/bridge/advancedBehavior/ui"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.Logout"
+             namespace="http://e2e.ch/bridge/advancedBehavior/ui"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.Number"
+             namespace="http://e2e.ch/bridge/advancedBehavior/ui"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.PhoneUSString"
+             namespace="http://e2e.ch/bridge/advancedBehavior/ui"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.TableFilterRequest"
+             namespace="http://e2e.ch/bridge/advancedBehavior/ui">
+      <XMLAttribute form="qualified" index="0" namespace="http://e2e.ch/bridge/ui/ajax/table"/>
+      <XMLAttribute form="qualified" index="1" namespace="http://e2e.ch/bridge/ui/ajax/table"/>
+      <XMLAttribute form="qualified" index="2" namespace="http://e2e.ch/bridge/ui/ajax/table"/>
+      <XMLAttribute form="qualified" index="3" namespace="http://e2e.ch/bridge/ui/ajax/table"/>
+      <XMLElement index="4" namespace="http://e2e.ch/bridge/ui/ajax/table" xsdType="int"/>
+      <XMLElement index="5" namespace="http://e2e.ch/bridge/ui/ajax/table" xsdType="string"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.TableFilterResponse"
+             namespace="http://e2e.ch/bridge/advancedBehavior/ui">
+      <XMLAttribute form="qualified" index="0" namespace="http://e2e.ch/bridge/ui/ajax/table"/>
+      <XMLAttribute form="qualified" index="1" namespace="http://e2e.ch/bridge/ui/ajax/table"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.TreeElement"
+             namespace="http://e2e.ch/bridge/advancedBehavior/ui"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.UIAutocompletionElement"
+             namespace="http://e2e.ch/bridge/advancedBehavior/ui"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.UIAutocompletionRequest"
+             namespace="http://e2e.ch/bridge/advancedBehavior/ui">
+      <XMLAttribute form="qualified" index="0" namespace="http://e2e.ch/bridge/advancedBehavior/ui"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.UIAutocompletionResponse"
+             namespace="http://e2e.ch/bridge/advancedBehavior/ui"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.UIEvent"
+             namespace="http://e2e.ch/bridge/advancedBehavior/ui"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.UISOAPErrorMessage"
+             namespace="http://e2e.ch/bridge/advancedBehavior/ui"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.URLString"
+             namespace="http://e2e.ch/bridge/advancedBehavior/ui"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.CompositeContext.Utilities"
+             namespace="http://e2e.ch/bridge/basicBehavior/compositeContext"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.DateTime.DateTimeOutputStructure"
+             namespace="http://e2e.ch/bridge/basicBehavior/dateTime">
+      <XMLAttribute index="0" namespace="http://e2e.ch/bridge/basicBehavior/dateTime"/>
+      <XMLAttribute index="1" namespace="http://e2e.ch/bridge/basicBehavior/dateTime"/>
+      <XMLAttribute index="2" namespace="http://e2e.ch/bridge/basicBehavior/dateTime"/>
+      <XMLAttribute index="3" namespace="http://e2e.ch/bridge/basicBehavior/dateTime"/>
+      <XMLAttribute index="4" namespace="http://e2e.ch/bridge/basicBehavior/dateTime"/>
+      <XMLAttribute index="5" namespace="http://e2e.ch/bridge/basicBehavior/dateTime"/>
+      <XMLAttribute index="6" namespace="http://e2e.ch/bridge/basicBehavior/dateTime"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Basic_Behavior.DateTime.DateTimeStructure"
+             namespace="http://e2e.ch/bridge/basicBehavior/dateTime"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.DateTime.DurationStructure"
+             namespace="http://e2e.ch/bridge/basicBehavior/dateTime"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.DateTime.Utilities"
+             namespace="http://e2e.ch/bridge/basicBehavior/dateTime"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Error.Callstack"
+             namespace="http://e2e.ch/bridge/basicBehavior/error"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Error.ConstraintViolation"
+             namespace="http://e2e.ch/bridge/basicBehavior/error"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Error.Error"
+             namespace="http://e2e.ch/bridge/basicBehavior/error"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Error.Utilities"
+             namespace="http://e2e.ch/bridge/basicBehavior/error"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Error.ValidationResult"
+             namespace="http://e2e.ch/bridge/basicBehavior/error"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Map.Entry"
+             namespace="http://e2e.ch/bridge/basicBehavior/map"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Map.Map"
+             namespace="http://e2e.ch/bridge/basicBehavior/map"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.MIME.MIMEHeaderField"
+             namespace="http://e2e.ch/bridge/basicBehavior/mime"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.MIME.MIMEPart"
+             namespace="http://e2e.ch/bridge/basicBehavior/mime"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.NumbersLocale"
+             namespace="http://e2e.ch/bridge/basicBehavior"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Select.Group"
+             namespace="http://e2e.ch/bridge/basicBehavior/select"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.ServiceContext.ContextElement"
+             namespace="http://e2e.ch/bridge/basicBehavior/serviceContext"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.ServiceContext.Utilities"
+             namespace="http://e2e.ch/bridge/basicBehavior/serviceContext"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.String.Utilities"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.XML.XMLComposeOptions"
+             namespace="http://e2e.ch/bridge/basicBehavior/xml">
+      <XMLElement index="0" xsdType="string"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Basic_Behavior.XML.XMLParseOptions"
+             namespace="http://e2e.ch/bridge/basicBehavior/xml"/>
+   <DataItem id="urn:Base_Types.Any"/>
+   <DataItem id="urn:Base_Types.Array"/>
+   <DataItem id="urn:Base_Types.Array.element" namespace="urn:Base_Types"/>
+   <DataItem id="urn:uml-signal:Base_Components.Advanced_Behavior.Persistent_State.AnySignal"
+             namespace="http://e2e.ch/bridge/advancedBehavior/persistentState"/>
+</XML>

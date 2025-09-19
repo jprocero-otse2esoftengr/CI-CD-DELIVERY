@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocumentInfo libraryImport="false" version="2.1">
+   <dependencies dependingOnBaseZip="false">
+      <includesfile filename="E2E Bridge Base.xml" umlfileid="E2E_BRIDGE_BASE_COMPONENTS">
+         <xmlelement id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1334833506675_583751_11200"/>
+         <xmlelement id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677887489_628032_1"/>
+         <xmlelement id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119882133263_554201_141"/>
+         <xmlelement id="E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864426430_621818_2"/>
+         <xmlelement id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_116374_4927"/>
+         <xmlelement id="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135071988137_920600_2"/>
+         <xmlelement id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227865759515_297406_5256"/>
+         <xmlelement id="E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195030989033_702066_2836"/>
+         <xmlelement id="E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238768448406_311491_4401"/>
+         <xmlelement id="E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862659_508204_814"/>
+         <xmlelement id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278243483_527883_14042"/>
+         <xmlelement id="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278256610_632842_14047"/>
+         <xmlelement id="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"/>
+         <xmlelement id="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer"/>
+         <xmlelement id="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Float"/>
+         <xmlelement id="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Boolean"/>
+      </includesfile>
+      <mountedFile id="E2E_BRIDGE_PROFILE"/>
+      <mountedFile id="E2E_PROCESS_TRACING"/>
+   </dependencies>
+</DocumentInfo>

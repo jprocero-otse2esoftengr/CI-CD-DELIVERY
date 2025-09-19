@@ -1,0 +1,179 @@
+Server: E2E-Bridge/2019.3
+Pragma: no-cache
+Cache-control: no-cache
+Content-Type: text/xml; charset=utf-8
+Content-Length: 6068
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+                   xmlns:ns0="urn:Services.NameOfService1.Classes"
+                   xmlns:trace="http://e2e.ch/bridge"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <SOAP-ENV:Header>
+      <trace:Trace trace:Size="5464" trace:Version="2019.3">
+         <genericFlow name="urn:Services.NameOfService1.NameOfPortType1.NameOfPortType1.operation1">
+            <startTime value="1462366327"/>
+            <input>
+               <request xsi:type="ns0:inputClass">
+                  <employeeNumber xsi:type="xsd:int">98</employeeNumber>
+                  <firstName xsi:type="xsd:string">jp</firstName>
+                  <lastName xsi:type="xsd:string">rocero</lastName>
+                  <position xsi:type="xsd:string">night</position>
+               </request>
+            </input>
+            <activity name="-">
+</activity>
+            <activity name="create_responses...2071638018|_18_0_6_f4d0365_1753812014140_974205_14039">
+               <startTime value="1462366328"/>
+               <transformerFlow name="create_responses...2071638018|_18_0_6_f4d0365_1753812014140_974205_14039">
+                  <startTime value="1462366328"/>
+                  <input>
+                     <request xsi:type="ns0:inputClass">
+                        <employeeNumber xsi:type="xsd:int">98</employeeNumber>
+                        <firstName xsi:type="xsd:string">jp</firstName>
+                        <lastName xsi:type="xsd:string">rocero</lastName>
+                        <position xsi:type="xsd:string">night</position>
+                     </request>
+                  </input>
+                  <create name="sm2071638018h-1784287674_0">
+                     <output>
+                        <response xsi:type="ns0:outputClass">
+</response>
+                     </output>
+                  </create>
+                  <set name="sm2071638018h-1784287674_1">
+                     <output>
+                        <response.employeeNumber...request.employeeNumber xsi:type="xsd:int">98</response.employeeNumber...request.employeeNumber>
+                     </output>
+                  </set>
+                  <set name="sm2071638018h-1784287674_2">
+                     <output>
+                        <response.employeeName...request.lastName xsi:type="xsd:string">rocero</response.employeeName...request.lastName>
+                     </output>
+                  </set>
+                  <create-local name="sm2071638018h-1784287674_3">
+                     <output>
+                        <localId xsi:type="ns0:idClass">
+</localId>
+                     </output>
+                  </create-local>
+                  <set name="sm2071638018h-1784287674_4">
+                     <function name="value...f2071638018h-305305580.2_1">
+                        <output>
+                           <value...f2071638018h-305305580.2_1Return xsi:type="xsd:string">1</value...f2071638018h-305305580.2_1Return>
+                        </output>
+                     </function>
+                     <output>
+                        <localId.type...value...f2071638018h-305305580.2_1 xsi:type="xsd:string">1</localId.type...value...f2071638018h-305305580.2_1>
+                     </output>
+                  </set>
+                  <set name="sm2071638018h-1784287674_5">
+                     <function name="value...f2071638018h-305305580.3_1">
+                        <output>
+                           <value...f2071638018h-305305580.3_1Return xsi:type="xsd:string">one</value...f2071638018h-305305580.3_1Return>
+                        </output>
+                     </function>
+                     <output>
+                        <localId.value...value...f2071638018h-305305580.3_1 xsi:type="xsd:string">one</localId.value...value...f2071638018h-305305580.3_1>
+                     </output>
+                  </set>
+                  <append name="sm2071638018h-1784287674_6">
+                     <output>
+                        <response.idArray...localId xsi:type="ns0:idClass">
+                           <type xsi:type="xsd:string">1</type>
+                           <value xsi:type="xsd:string">one</value>
+                        </response.idArray...localId>
+                     </output>
+                  </append>
+                  <output>
+                     <response xsi:type="ns0:outputClass">
+                        <employeeNumber xsi:type="xsd:int">98</employeeNumber>
+                        <employeeName xsi:type="xsd:string">rocero</employeeName>
+                        <idArray SOAP-ENC:arrayType="ns0:idClass[1]" xsi:type="SOAP-ENC:Array">
+                           <item xsi:type="ns0:idClass">
+                              <type xsi:type="xsd:string">1</type>
+                              <value xsi:type="xsd:string">one</value>
+                           </item>
+                        </idArray>
+                     </response>
+                  </output>
+                  <stopTime value="1462366328"/>
+               </transformerFlow>
+               <stopTime value="1462366328"/>
+            </activity>
+            <branches name="...2071638018|_18_0_6_f4d0365_1758100219799_637533_13958">
+               <branch name="">
+                  <function name="compareEq...f2071638018h-1304393832.0_1">
+                     <function name="value...f2071638018h-1304393832.1_3">
+                        <output>
+                           <value...f2071638018h-1304393832.1_3Return xsi:type="xsd:string">rocero</value...f2071638018h-1304393832.1_3Return>
+                        </output>
+                     </function>
+                     <input>
+                        <request.lastName xsi:type="xsd:string">rocero</request.lastName>
+                        <value...f2071638018h-1304393832.1_3 xsi:type="xsd:string">rocero</value...f2071638018h-1304393832.1_3>
+                     </input>
+                     <output>
+                        <compareEq...f2071638018h-1304393832.0_1Return xsi:type="xsd:boolean">true</compareEq...f2071638018h-1304393832.0_1Return>
+                     </output>
+                  </function>
+               </branch>
+            </branches>
+            <activity name="blocked...2071638018|_18_0_6_f4d0365_1758100223778_690616_13968">
+               <startTime value="1462366328"/>
+               <transformerFlow name="blocked...2071638018|_18_0_6_f4d0365_1758100223778_690616_13968">
+                  <startTime value="1462366328"/>
+                  <input>
+</input>
+                  <create name="sm2071638018h-981329032_0">
+                     <output>
+                        <response xsi:type="ns0:outputClass">
+</response>
+                     </output>
+                  </create>
+                  <set name="sm2071638018h-981329032_1">
+                     <function name="value...f2071638018h1625116305.1_1">
+                        <output>
+                           <value...f2071638018h1625116305.1_1Return xsi:type="xsd:string">BLOCKED</value...f2071638018h1625116305.1_1Return>
+                        </output>
+                     </function>
+                     <output>
+                        <response.status...value...f2071638018h1625116305.1_1 xsi:type="xsd:string">BLOCKED</response.status...value...f2071638018h1625116305.1_1>
+                     </output>
+                  </set>
+                  <set name="sm2071638018h-981329032_2">
+                     <function name="value...f2071638018h1625116305.2_1">
+                        <output>
+                           <value...f2071638018h1625116305.2_1Return xsi:type="xsd:string">Last name not allowed</value...f2071638018h1625116305.2_1Return>
+                        </output>
+                     </function>
+                     <output>
+                        <response.message...value...f2071638018h1625116305.2_1 xsi:type="xsd:string">Last name not allowed</response.message...value...f2071638018h1625116305.2_1>
+                     </output>
+                  </set>
+                  <output>
+                     <response xsi:type="ns0:outputClass">
+                        <status xsi:type="xsd:string">BLOCKED</status>
+                        <message xsi:type="xsd:string">Last name not allowed</message>
+                     </response>
+                  </output>
+                  <stopTime value="1462366328"/>
+               </transformerFlow>
+               <stopTime value="1462366328"/>
+            </activity>
+            <output>
+               <response xsi:type="ns0:outputClass">
+                  <status xsi:type="xsd:string">BLOCKED</status>
+                  <message xsi:type="xsd:string">Last name not allowed</message>
+               </response>
+            </output>
+            <stopTime value="1462366328"/>
+         </genericFlow>
+      </trace:Trace>
+   </SOAP-ENV:Header>
+   <SOAP-ENV:Body>
+      <outputClass message="Last name not allowed" status="BLOCKED"/>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+              env:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+   <env:Body>
+      <env:Fault type="SOAPResponse">
+         <faultcode type="Base Types.String">Client</faultcode>
+         <faultstring type="Base Types.String">Client error</faultstring>
+         <detail>
+            <message>
+               <category type="Base Types.String">1</category>
+               <domain type="Base Types.String">E2EBuilder Model Tracer</domain>
+               <code type="Base Types.String">HTTP_04</code>
+               <description type="Base Types.String">java.net.ConnectException: Connection refused: connect (ConnectException: http://localhost:11114/BuilderUMLService/NameOfPortType1)</description>
+            </message>
+         </detail>
+      </env:Fault>
+   </env:Body>
+</env:Envelope>

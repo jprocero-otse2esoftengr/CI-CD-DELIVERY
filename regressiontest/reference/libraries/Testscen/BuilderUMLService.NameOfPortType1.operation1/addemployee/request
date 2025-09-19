@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request>
+   <env:Header xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+      <bridge:Trace xmlns:bridge="http://e2e.ch/bridge" level="Moderate" maxSize="10"/>
+      <bridge:TransactionID xmlns:bridge="http://e2e.ch/bridge">trxID</bridge:TransactionID>
+   </env:Header>
+</Request>

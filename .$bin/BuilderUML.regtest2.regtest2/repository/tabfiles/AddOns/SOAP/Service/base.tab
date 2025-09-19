@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><SEI_HTTP_Service>
+   <MaximumConnections>50</MaximumConnections>
+   <ResolveHostnames>true</ResolveHostnames>
+   <TracingAllowed>true</TracingAllowed>
+   <PortNumber>11185</PortNumber>
+</SEI_HTTP_Service>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+              xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+              xmlns:ns1="urn:BuilderUMLService">
+         <env:Header>
+            <bridge:TransactionID xmlns:bridge="http://e2e.ch/bridge">trxID</bridge:TransactionID>
+         </env:Header>
+         <env:Body>
+            <inputClass employeeNumber="45" firstName="jp" lastName="rocero" position="softdev"/>
+         </env:Body>
+      </env:Envelope>

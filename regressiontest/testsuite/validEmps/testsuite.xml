@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases name="validEmps">
+   <property name="source.folder"
+             value="${project.folder}/regressiontest/source/validEmps"/>
+   <property name="reference.folder"
+             value="${project.folder}/regressiontest/reference/validEmps"/>
+   <property name="output.folder"
+             value="${project.folder}/regressiontest/.$output/validEmps"/>
+   <testcase name="addemp1" type="TestcaseTest">
+      <options>
+         <option directory="true"
+                 name="run.testcase.test.output.folder"
+                 value="${output.folder}/BuilderUMLService.NameOfPortType1.operation1/addemp1"/>
+         <option directory="true"
+                 name="run.testcase.test.testcase.home"
+                 value="${project.folder}/regressiontest/source/validEmps"/>
+         <option name="run.testcase.test.testcase" value="addemp1"/>
+         <option name="key.option.test.name" value="addemp1"/>
+         <option name="run.testcase.test.operation"
+                 value="BuilderUMLService.NameOfPortType1.operation1"/>
+         <option name="run.testcase.test.host" value="localhost:11165"/>
+      </options>
+      <compare>
+         <testcaseCompare compareType="equal" name="Compare run of addemp1">
+            <option directory="true"
+                    name="xml.compare.reference.file"
+                    value="${reference.folder}/BuilderUMLService.NameOfPortType1.operation1/addemp1"/>
+            <option directory="true"
+                    name="xml.compare.test.file"
+                    value="${output.folder}/BuilderUMLService.NameOfPortType1.operation1/addemp1"/>
+         </testcaseCompare>
+      </compare>
+   </testcase>
+   <testcase name="addemp2" type="TestcaseTest">
+      <options>
+         <option directory="true"
+                 name="run.testcase.test.output.folder"
+                 value="${output.folder}/BuilderUMLService.NameOfPortType1.operation1/addemp2"/>
+         <option directory="true"
+                 name="run.testcase.test.testcase.home"
+                 value="${project.folder}/regressiontest/source/validEmps"/>
+         <option name="run.testcase.test.testcase" value="addemp2"/>
+         <option name="key.option.test.name" value="addemp2"/>
+         <option name="run.testcase.test.operation"
+                 value="BuilderUMLService.NameOfPortType1.operation1"/>
+         <option name="run.testcase.test.host" value="localhost:11165"/>
+      </options>
+      <compare>
+         <testcaseCompare compareType="equal" name="Compare run of addemp2">
+            <option directory="true"
+                    name="xml.compare.reference.file"
+                    value="${reference.folder}/BuilderUMLService.NameOfPortType1.operation1/addemp2"/>
+            <option directory="true"
+                    name="xml.compare.test.file"
+                    value="${output.folder}/BuilderUMLService.NameOfPortType1.operation1/addemp2"/>
+         </testcaseCompare>
+      </compare>
+   </testcase>
+</testcases>

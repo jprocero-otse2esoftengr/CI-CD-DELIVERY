@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><System><soapAction>urn:operation1</soapAction><documentStyle>document</documentStyle><version>unkown</version><lastRun><date>2025-09-18T05:57:17+0800</date><location>http://localhost:11165/BuilderUMLService/NameOfPortType1</location><Trace><tracelevel>None</tracelevel></Trace></lastRun></System>

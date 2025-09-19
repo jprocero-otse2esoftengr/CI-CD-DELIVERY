@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Java_AddOn xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <VirtualMachine killThreadsOnShutdown="true">
+      <ClassPath>${ALIAS_VirtualMachine_ClassPath}</ClassPath>
+      <ParallelOperations>${ALIAS_VirtualMachine_ParallelOperations}</ParallelOperations>
+   </VirtualMachine>
+</Java_AddOn>

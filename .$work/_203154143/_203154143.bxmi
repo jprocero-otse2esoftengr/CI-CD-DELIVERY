@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://schema.omg.org/spec/XMI/2.1"
+         xmlns:ebp="http://e2e.ch/bridge/profile"
+         enforcedImport="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1334833506675_583751_11200 E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677887489_628032_1 E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119882133263_554201_141 E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864426430_621818_2 E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_116374_4927 E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135071988137_920600_2 E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227865759515_297406_5256 E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195030989033_702066_2836 E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238768448406_311491_4401 E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862659_508204_814 E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278243483_527883_14042 E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278256610_632842_14047"
+         fileid="_203154143"
+         xmi:version="2.1"
+         xmifile.id="_203154143">
+   <xmi:Documentation>
+      <xmi:exporter>MagicDraw UML</xmi:exporter>
+      <xmi:exporterVersion>18.0</xmi:exporterVersion>
+   </xmi:Documentation>
+   <uml:Model xmlns:uml="http://schema.omg.org/spec/UML/2.0" name="Data"
+              xmi:id="_203154143|ROOT_MODEL_XMI.ID"
+              xmi:type="uml:Model">
+      <ownedComment body="&lt;html&gt;&#xA;&lt;head&gt;&#xA;&lt;/head&gt;&#xA;&lt;body&gt;&#xA;&lt;h2&gt;Change Log&lt;/h2&gt;&#xA;&lt;table class=&#34;table&#34;&gt;&#xA;    &lt;tr&gt;&#xA;        &lt;th&gt;Date&lt;/th&gt;&#xA;        &lt;th&gt;Author&lt;/th&gt;&#xA;        &lt;th&gt;Version&lt;/th&gt;&#xA;        &lt;th&gt;Implementation&lt;/th&gt;&#xA;        &lt;th&gt;Note&lt;/th&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;&lt;/table&gt;&#xA;&lt;/body&gt;&#xA;&lt;/html&gt;"/>
+      <ownedMember name="Services" xmi:id="_203154143|_18_0_6_f4d0365_1753812330001_854467_13844"
+                   xmi:type="uml:Package">
+         <ownedMember name="NameOfService1"
+                      xmi:id="_203154143|_18_0_6_f4d0365_1753812330001_765278_13851"
+                      xmi:type="uml:Package">
+            <ownedMember name="Classes" xmi:id="_203154143|_18_0_6_f4d0365_1753812329997_322509_13834"
+                         xmi:type="uml:Package"/>
+            <ownedMember name="NameOfPortType1"
+                         xmi:id="_203154143|_18_0_6_f4d0365_1753812329997_287982_13818"
+                         xmi:type="uml:Package">
+               <ownedMember name="NameOfPortType1"
+                            xmi:id="_203154143|_18_0_6_f4d0365_1753812329997_356427_13819"
+                            xmi:type="uml:Class">
+                  <ebp:umlNamespace value="urn:Services.NameOfService1.NameOfPortType1"/>
+                  <ebp:E2ESOAPPortType base_Class="_203154143|_18_0_6_f4d0365_1753812329997_356427_13819"
+                                       xmi:id="_203154143|_18_0_6_f4d0365_1753812329991_437083_13803"/>
+                  <ownedComment body="[Add documentation here]"/>
+                  <ownedBehavior isReentrant="false" name="Implementation of Operation 1"
+                                 specification="_203154143|_18_0_6_f4d0365_1753812329991_791973_13810"
+                                 xmi:id="_203154143|_18_0_6_f4d0365_1753812330001_742706_13843"
+                                 xmi:type="uml:Activity">
+                     <edge source="_203154143|_18_0_6_f4d0365_1753812329997_675561_13832"
+                           target="_203154143|_18_0_6_f4d0365_1753812329997_304037_13830"
+                           visibility="public"
+                           xmi:id="_203154143|_18_0_6_f4d0365_1753812329997_194950_13828"
+                           xmi:type="uml:ControlFlow"/>
+                     <node name="Start" visibility="public"
+                           xmi:id="_203154143|_18_0_6_f4d0365_1753812329997_675561_13832"
+                           xmi:type="uml:InitialNode">
+                        <outgoing xmi:idref="_203154143|_18_0_6_f4d0365_1753812329997_194950_13828"/>
+                     </node>
+                     <node name="End" visibility="public"
+                           xmi:id="_203154143|_18_0_6_f4d0365_1753812329997_304037_13830"
+                           xmi:type="uml:ActivityFinalNode">
+                        <incoming xmi:idref="_203154143|_18_0_6_f4d0365_1753812329997_194950_13828"/>
+                     </node>
+                  </ownedBehavior>
+                  <ownedOperation isStatic="true" name="operation1" visibility="public"
+                                  xmi:id="_203154143|_18_0_6_f4d0365_1753812329991_791973_13810"
+                                  xmi:type="uml:Operation">
+                     <ebp:SOAPDocumentOperation base_Operation="_203154143|_18_0_6_f4d0365_1753812329991_791973_13810"
+                                                xmi:id="_203154143|_18_0_6_f4d0365_1753812329997_69909_13835"/>
+                     <method xmi:idref="_203154143|_18_0_6_f4d0365_1753812330001_742706_13843"/>
+                     <ownedComment body="[Add documentation here]"/>
+                     <ownedParameter name="parameter1"
+                                     type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                     visibility="public"
+                                     xmi:id="_203154143|_18_0_6_f4d0365_1753812329997_56649_13833"
+                                     xmi:type="uml:Parameter"/>
+                  </ownedOperation>
+               </ownedMember>
+            </ownedMember>
+         </ownedMember>
+      </ownedMember>
+      <ownedMember name="Aliases" xmi:id="_203154143|_18_0_6_f4d0365_1753812330001_111834_13853"
+                   xmi:type="uml:Package"/>
+   </uml:Model>
+</xmi:XMI>

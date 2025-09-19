@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Backend_Components xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Component>
+      <Name>urn:Services.NameOfService1.NameOfPortType1.NameOfPortType1.operation1</Name>
+      <Type>FLOW_GENERIC</Type>
+      <Operation isStatic="true">operation1</Operation>
+      <XmiID>2071638018|_18_0_6_f4d0365_1753807809642_690096_13836</XmiID>
+   </Component>
+</Backend_Components>

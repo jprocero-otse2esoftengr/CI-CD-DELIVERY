@@ -1,0 +1,21 @@
+POST /BuilderUMLService/NameOfPortType1 HTTP/1.0
+X-Bridge: NoErrorReturn
+Request-ID: addemp2_1758146218550
+SOAPAction: urn:operation1
+User-Agent: SOAPTestTool/1.0 (Java HotSpot(TM) 64-Bit Server VM/25.92-b14)
+Host: localhost:11165
+Content-Length: 564
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+              xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+              xmlns:ns1="urn:BuilderUMLService">
+         <env:Header>
+      <bridge:Trace xmlns:bridge="http://e2e.ch/bridge" level="None" maxSize="10"/>
+            <bridge:TransactionID xmlns:bridge="http://e2e.ch/bridge">trxID</bridge:TransactionID>
+         </env:Header>
+         <env:Body>
+            <inputClass employeeNumber="92" firstName="ray" lastName="quan" position="admin"/>
+         </env:Body>
+      </env:Envelope>

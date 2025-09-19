@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocumentInfo libraryImport="false" version="2.1">
+   <dependencies dependingOnBaseZip="false">
+      <includesfile filename="E2E Bridge Profile.xml" umlfileid="E2E_BRIDGE_PROFILE">
+         <xmlelement id="E2E_BRIDGE_PROFILE|_9_5_1_b2002db_1159949983687_226741_93"/>
+         <xmlelement id="E2E_BRIDGE_PROFILE|e2e_bridge_profile__ExtendedJSONFormat"/>
+         <xmlelement id="E2E_BRIDGE_PROFILE|_16_5_4_32690623_1256119822046_619249_1363"/>
+      </includesfile>
+      <mountedFile id="E2E_BRIDGE_PROFILE"/>
+   </dependencies>
+</DocumentInfo>

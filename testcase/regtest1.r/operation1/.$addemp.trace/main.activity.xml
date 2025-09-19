@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><genericFlow id="1" name="urn:Services.NameOfService1.NameOfPortType1.NameOfPortType1.operation1" objectId="nullRootObject_931791413" runtime="1ms">
+<startTime value="1462000362"/>
+<input objectId="nullInput_1725564740">
+<request xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" namespace="urn:Services.NameOfService1.Classes" objectId="nullData_1897368035" xsi:type="inputClass">input1</request>
+</input>
+<activity name="-" objectId="nullActivity_1195458722" runtime="0ms">
+</activity>
+<activity name="create_responses...2071638018|_18_0_6_f4d0365_1753812014140_974205_14039" objectId="nullActivity_2005374064" runtime="0ms">
+<startTime value="1462000363"/>
+<transformerFlow name="create_responses...2071638018|_18_0_6_f4d0365_1753812014140_974205_14039" objectId="nullTransformerFlow_59803807" runtime="0ms">
+<startTime value="1462000363"/>
+<input objectId="nullInput_1216329865">
+<request xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" namespace="urn:Services.NameOfService1.Classes" objectId="nullData_747768317" xsi:type="inputClass">input2</request>
+</input>
+<Script id="SCRIPT13"/>
+
+
+
+
+
+
+<output objectId="nullOutput_1364795853">
+<response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" namespace="urn:Services.NameOfService1.Classes" objectId="nullData_1535477228" xsi:type="outputClass">output12</response>
+</output>
+<stopTime value="1462000363"/>
+</transformerFlow>
+<stopTime value="1462000363"/>
+</activity>
+<branches name="...2071638018|_18_0_6_f4d0365_1758100219799_637533_13958" objectId="nullBranches_1280998898">
+<Script id="SCRIPT18"/>
+<Script id="SCRIPT19"/>
+</branches>
+<output objectId="nullOutput_851314376">
+<response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" namespace="urn:Services.NameOfService1.Classes" objectId="nullData_632935595" xsi:type="outputClass">output20</response>
+</output>
+<stopTime value="1462000363"/>
+</genericFlow>

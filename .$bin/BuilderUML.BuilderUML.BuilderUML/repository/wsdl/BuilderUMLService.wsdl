@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="urn:BuilderUMLService"
+                  xmlns:http="http://schemas.xmlsoap.org/soap/http"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                  xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+                  name="BuilderUMLService"
+                  targetNamespace="urn:BuilderUMLService">
+   <wsdl:import location="noNamespace.xsd" namespace=""/>
+   <wsdl:message name="NameOfPortType1_operation1_Request">
+      <wsdl:part element="inputClass" name="request"/>
+   </wsdl:message>
+   <wsdl:message name="NameOfPortType1_operation1_Response">
+      <wsdl:part element="outputClass" name="response"/>
+   </wsdl:message>
+   <wsdl:portType name="NameOfPortType1">
+      <wsdl:documentation>[Add documentation here]</wsdl:documentation>
+      <wsdl:operation name="operation1">
+         <wsdl:documentation>[Add documentation here]</wsdl:documentation>
+         <wsdl:input message="tns:NameOfPortType1_operation1_Request"/>
+         <wsdl:output message="tns:NameOfPortType1_operation1_Response"/>
+      </wsdl:operation>
+   </wsdl:portType>
+   <wsdl:binding name="NameOfPortType1_SOAPBinding" type="tns:NameOfPortType1">
+      <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+      <wsdl:operation name="operation1">
+         <soap:operation soapAction="urn:operation1"/>
+         <wsdl:input>
+            <soap:body use="literal"/>
+         </wsdl:input>
+         <wsdl:output>
+            <soap:body use="literal"/>
+         </wsdl:output>
+      </wsdl:operation>
+   </wsdl:binding>
+   <wsdl:service name="BuilderUMLService">
+      <wsdl:port binding="tns:NameOfPortType1_SOAPBinding" name="NameOfPortType1">
+         <soap:address location="http://localhost:11114/BuilderUMLService/NameOfPortType1"/>
+      </wsdl:port>
+   </wsdl:service>
+</wsdl:definitions>

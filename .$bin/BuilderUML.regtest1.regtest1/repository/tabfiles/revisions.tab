@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Revision>
+      <XMI fileName="BuilderUML" version="2.1"/>
+      <UML version="2.0"/>
+      <Composite name="regtest1" version="0.0.1"/>
+      <CompilerInformation>
+         <BuildTime millis="1758103291442">Wed, Sep 17, 2025, 18:01:31 SGT</BuildTime>
+         <Compiler version="7.4.0"/>
+         <Builder runtime="2019.3" version="7.4.0"/>
+      </CompilerInformation>
+   </Revision>
+</table>

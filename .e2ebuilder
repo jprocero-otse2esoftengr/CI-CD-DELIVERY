@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+   <generic>
+      <author type="java.lang.String">jprocero</author>
+      <name type="java.lang.String">appendarrayexercise</name>
+      <description type="java.lang.String"/>
+      <repository type="java.io.File">repository</repository>
+   </generic>
+   <tracer/>
+   <compiler>
+      <uml type="java.io.File">uml</uml>
+      <optimize.java.script type="java.lang.Boolean">false</optimize.java.script>
+   </compiler>
+</project>

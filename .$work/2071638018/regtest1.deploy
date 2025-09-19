@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeploymentDescriptor xmlns="http://e2e.ch/bridge" version="3.0">
+   <Documentation indexDocument="BuilderUML_2071638018.html" location="documentation"/>
+   <RepositoryConfiguration>
+      <RepositoryEntries>
+         <RepositoryEntry path="tabfiles"/>
+         <RepositoryEntry path="wsdl/"/>
+         <RepositoryEntry path="java"/>
+         <RepositoryEntry path="xslt/"/>
+         <RepositoryEntry path="resources"/>
+         <RepositoryEntry path="htdocs/"/>
+         <RepositoryEntry path="documentation/"/>
+         <RepositoryEntry path="swagger/"/>
+      </RepositoryEntries>
+   </RepositoryConfiguration>
+   <RuntimeConstraints/>
+   <BridgeConfiguration category="Training2025" classToXMLDefaultRootName="Default"
+                        classifierID="2071638018|_18_0_6_f4d0365_1753839490742_356278_13950"
+                        classifierName="regtest1"
+                        control="${global_e2e_configuration_controller_Port}"
+                        host="localhost"
+                        id="2071638018|_18_0_6_f4d0365_1753839490742_356278_13950"
+                        name="regtest1"
+                        trace="true"
+                        umlLocation="2071638018|ROOT_MODEL_XMI.ID~2071638018|_18_0_6_f4d0365_1753839490615_807677_13916~2071638018|_18_0_6_f4d0365_1753839490742_161846_13951~2071638018|_18_0_6_f4d0365_1753839490742_356278_13950"
+                        version="0.0.1">
+      <Services>
+         <Service authenticationMode="None"
+                  externalURL="http://${wsdl_host_urn:Component_View.Composites.regtest1.BuilderUMLService}:${addOn_SEI_HTTP_Service_BuilderUMLService_Port}"
+                  id="2071638018|_18_0_6_f4d0365_1753839490742_809534_13966"
+                  instanceName="BuilderUMLService"
+                  label="BuilderUMLService:BuilderUMLService"
+                  name="BuilderUMLService"
+                  namespace="urn:Component_View.Composites"
+                  package="Component_View.Composites.regtest1"
+                  port="${addOn_SEI_HTTP_Service_BuilderUMLService_Port}"
+                  protocol="http"
+                  stereotype="E2ESOAPService"
+                  umlLocation="2071638018|ROOT_MODEL_XMI.ID~2071638018|_18_0_6_f4d0365_1753839490615_807677_13916~2071638018|_18_0_6_f4d0365_1753839490742_161846_13951~2071638018|_18_0_6_f4d0365_1753839490742_356278_13950~2071638018|_18_0_6_f4d0365_1753839490742_809534_13966"
+                  url="http://NoHostInfo:${addOn_SEI_HTTP_Service_BuilderUMLService_Port}"
+                  wsdl="true"
+                  wsdlServicePath="/BuilderUMLService"
+                  wsdlURI="http://${server_hostname}:${addOn_SEI_HTTP_Service_BuilderUMLService_Port}/BuilderUMLService?wsdl">
+               <Documentation/>
+               <Ports>
+                  <Port enabledID="addOn_BuilderUMLService.NameOfPortType1_Enabled"
+                     escapedPath="/BuilderUMLService/NameOfPortType1"
+                     instanceName="NameOfPortType1"
+                     name="NameOfPortType1"
+                     package="Services.NameOfService1.NameOfPortType1"
+                     path="/BuilderUMLService/NameOfPortType1"/>
+               </Ports>
+            </Service>
+      </Services>
+      <UIDeployments/>
+   </BridgeConfiguration>
+   <ProxyConfiguration/>
+</DeploymentDescriptor>

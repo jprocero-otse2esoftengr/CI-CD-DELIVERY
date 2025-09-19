@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Errorlist>
+   <Testcase name="Stop regtestlatest"/>
+   <Testcase name="Start regtestlatest">
+      <Error class="ch.e2e.test.TestFailedError">
+         <Message>Test Failed Error - XML not equal for ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com.start.log</Message>
+         <Details>
+            <Detail diffInfo="false"
+                    file="C:\Users\jproc\Desktop\appendarrayexercise\appendarrayexercise\regressiontest\reference\bridgeconn\regtestlatest\ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com.start.log"
+                    type="ch.e2e.test.XMLDiffErrorDetail">
+               <xmlDiff>[different] Expected text value 'OK' but was 'ERROR' - comparing &lt;Status ...&gt;OK&lt;/Status&gt; at /Result[1]/Status[1]/text()[1] to &lt;Status ...&gt;ERROR&lt;/Status&gt; at /Result[1]/Status[1]/text()[1]</xmlDiff>
+               <xmlDiff>[different] Expected text value 'null' but was 'Service 'regtestlatest' already running!' - comparing &lt;Message ...&gt;null&lt;/Message&gt; at /Result[1]/Message[1]/text()[1] to &lt;Message ...&gt;Service 'regtestlatest' already running!&lt;/Message&gt; at /Result[1]/Message[1]/text()[1]</xmlDiff>
+            </Detail>
+         </Details>
+      </Error>
+   </Testcase>
+   <Testcase name="Deploy regtestlatest.rep"/>
+</Errorlist>

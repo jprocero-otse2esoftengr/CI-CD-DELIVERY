@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AsynchronousTrace>
+   <Service>
+      <Name>BuilderUMLService</Name>
+      <Stereotype>E2ESOAPService</Stereotype>
+      <Class>
+         <Name>NameOfPortType1</Name>
+         <Stereotype>E2ESOAPPortType</Stereotype>
+         <Operation>
+            <Name>operation1</Name>
+            <Namespace>urn:Services.NameOfService1.NameOfPortType1.NameOfPortType1</Namespace>
+            <Type>urn:Services.NameOfService1.NameOfPortType1.NameOfPortType1.operation1</Type>
+         </Operation>
+      </Class>
+   </Service>
+</AsynchronousTrace>

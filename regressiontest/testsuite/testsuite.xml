@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases name="TestSuites">
+   <property name="source.folder" value="${project.folder}/regressiontest/source"/>
+   <property name="reference.folder"
+             value="${project.folder}/regressiontest/reference"/>
+   <property name="output.folder" value="${project.folder}/regressiontest/.$output"/>
+   <options type="TestcaseCompare">
+      <ignore element="startTime"/>
+      <ignore element="stopTime"/>
+      <ignore attribute="trace:Size"/>
+   </options>
+   <options type="TabfileMergeCompare">
+      <ignore element="BuildTime"/>
+   </options>
+   <include file="blockedsce/testsuite.xml"/>
+   <include file="validEmps/testsuite.xml"/>
+   <include file="PositionSc/testsuite.xml"/>
+   <include file="BlockedEmp/testsuite.xml"/>
+   <include file="Testscen/testsuite.xml"/>
+</testcases>

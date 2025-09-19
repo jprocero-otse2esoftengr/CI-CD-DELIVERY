@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><SEI_HTTP_Service xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Request>
+      <Name enabled="true">mset2071638018h-100248280</Name>
+      <URI>/BuilderUMLService/NameOfPortType1</URI>
+      <SOAPAction>urn:operation1</SOAPAction>
+      <AuthMode>None</AuthMode>
+   </Request>
+</SEI_HTTP_Service>

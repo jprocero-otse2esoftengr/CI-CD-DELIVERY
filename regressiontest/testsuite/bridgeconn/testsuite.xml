@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases name="bridgeconnection">
+   <property name="source.folder"
+             value="${project.folder}/regressiontest/source/bridgeconn"/>
+   <property name="reference.folder"
+             value="${project.folder}/regressiontest/reference/bridgeconn"/>
+   <property name="output.folder"
+             value="${project.folder}/regressiontest/.$output/bridgeconn"/>
+   <testcase name="Start regtestlatest" type="startservice">
+      <options>
+         <option name="service.test.host"
+                 value="ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com"/>
+         <option name="service.test.username" value="jprocero"/>
+         <option name="service.test.password" value="jprocero"/>
+         <option name="service.test.type" value="E2E xUML Service"/>
+         <option directory="false"
+                 name="service.test.logfile"
+                 value="${output.folder}/regtestlatest/ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com.start.log"/>
+         <option name="service.test.port" value="8080"/>
+         <option name="service.test.node"
+                 value="ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com"/>
+         <option name="service.test.service" value="regtestlatest"/>
+         <option name="key.option.test.name" value="Start regtestlatest"/>
+      </options>
+      <compare>
+         <xmlCompare compareType="equal" name="Compare regtestlatest start.log">
+            <reference file="${reference.folder}/regtestlatest/ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com.start.log"/>
+            <test file="${output.folder}/regtestlatest/ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com.start.log"/>
+         </xmlCompare>
+      </compare>
+   </testcase>
+   <testcase name="Stop regtestlatest" type="stopservice">
+      <options>
+         <option name="service.test.stop.timeout" value="-1"/>
+         <option name="service.test.host"
+                 value="ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com"/>
+         <option name="service.test.username" value="jprocero"/>
+         <option name="service.test.password" value="jprocero"/>
+         <option name="service.test.type" value="E2E xUML Service"/>
+         <option directory="false"
+                 name="service.test.logfile"
+                 value="${output.folder}/regtestlatest/ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com.stop.log"/>
+         <option name="service.test.port" value="8080"/>
+         <option name="service.test.node"
+                 value="ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com"/>
+         <option name="service.test.service" value="regtestlatest"/>
+         <option name="key.option.test.name" value="Stop regtestlatest"/>
+      </options>
+      <compare>
+         <xmlCompare compareType="equal" name="Compare regtestlatest stop.log">
+            <reference file="${reference.folder}/regtestlatest/ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com.stop.log"/>
+            <test file="${output.folder}/regtestlatest/ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com.stop.log"/>
+         </xmlCompare>
+      </compare>
+   </testcase>
+   <testcase name="Deploy regtestlatest.rep" type="DeployRepository">
+      <options>
+         <option name="repository.deploy.override.settings" value="false"/>
+         <option name="repository.deploy.url.host"
+                 value="ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com"/>
+         <option name="repository.deploy.override" value="true"/>
+         <option name="repository.deploy.start" value="false"/>
+         <option name="repository.deploy.auth.user" value="jprocero"/>
+         <option directory="false"
+                 name="repository.deploy.file"
+                 value="${project.folder}/repository/BuilderUML/regtestlatest.rep"/>
+         <option name="repository.deploy.url.port" value="8080"/>
+         <option name="repository.deploy.control.port" value="21176"/>
+         <option name="repository.deploy.auth.password" value="jprocero"/>
+         <option directory="false"
+                 name="repository.deploy.logfile"
+                 value="${output.folder}/regtestlatest.rep/ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com.deploy.log"/>
+         <option name="key.option.test.name" value="Deploy regtestlatest.rep"/>
+      </options>
+      <compare>
+         <DeployResultCompare name="Compare regtestlatest.rep/ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com.deploy.log">
+            <option directory="false"
+                    name="deploy.result.compare.test.file"
+                    value="${output.folder}/regtestlatest.rep/ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com.deploy.log"/>
+         </DeployResultCompare>
+      </compare>
+   </testcase>
+</testcases>

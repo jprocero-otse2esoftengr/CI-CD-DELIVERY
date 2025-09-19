@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library name="Testscen">
+   <property name="source.folder"
+             value="${project.folder}/regressiontest/source/libraries/Testscen"/>
+   <property name="reference.folder"
+             value="${project.folder}/regressiontest/reference/libraries/Testscen"/>
+   <property name="library.output.folder" value="${output.folder}/Testscen"/>
+   <testcase name="addemployee" type="TestcaseTest">
+      <options>
+         <option directory="true"
+                 name="run.testcase.test.output.folder"
+                 value="${library.output.folder}/BuilderUMLService.NameOfPortType1.operation1/addemployee"/>
+         <option directory="true"
+                 name="run.testcase.test.testcase.home"
+                 value="${project.folder}/regressiontest/source/libraries/Testscen"/>
+         <option name="run.testcase.test.testcase" value="addemployee"/>
+         <option name="key.option.test.name" value="addemployee"/>
+         <option name="run.testcase.test.operation"
+                 value="BuilderUMLService.NameOfPortType1.operation1"/>
+         <option name="run.testcase.test.host" value="localhost:11184"/>
+      </options>
+      <compare>
+         <testcaseCompare compareType="equal" name="Compare run of addemployee">
+            <option directory="true"
+                    name="xml.compare.reference.file"
+                    value="${reference.folder}/BuilderUMLService.NameOfPortType1.operation1/addemployee"/>
+            <option directory="true"
+                    name="xml.compare.test.file"
+                    value="${library.output.folder}/BuilderUMLService.NameOfPortType1.operation1/addemployee"/>
+         </testcaseCompare>
+      </compare>
+   </testcase>
+   <testcase name="blockedemp" type="TestcaseTest">
+      <options>
+         <option directory="true"
+                 name="run.testcase.test.output.folder"
+                 value="${library.output.folder}/BuilderUMLService.NameOfPortType1.operation1/blockedemp"/>
+         <option directory="true"
+                 name="run.testcase.test.testcase.home"
+                 value="${project.folder}/regressiontest/source/libraries/Testscen"/>
+         <option name="run.testcase.test.testcase" value="blockedemp"/>
+         <option name="key.option.test.name" value="blockedemp"/>
+         <option name="run.testcase.test.operation"
+                 value="BuilderUMLService.NameOfPortType1.operation1"/>
+         <option name="run.testcase.test.host" value="localhost:11184"/>
+      </options>
+      <compare>
+         <testcaseCompare compareType="equal" name="Compare run of blockedemp">
+            <option directory="true"
+                    name="xml.compare.reference.file"
+                    value="${reference.folder}/BuilderUMLService.NameOfPortType1.operation1/blockedemp"/>
+            <option directory="true"
+                    name="xml.compare.test.file"
+                    value="${library.output.folder}/BuilderUMLService.NameOfPortType1.operation1/blockedemp"/>
+         </testcaseCompare>
+      </compare>
+   </testcase>
+</library>

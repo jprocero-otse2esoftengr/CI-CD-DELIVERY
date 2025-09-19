@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flows xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Flow id="urn:Services.NameOfService1.NameOfPortType1.NameOfPortType1.operation1">
+      <Start nextId="create_responses...2071638018|_18_0_6_f4d0365_1753812014140_974205_14039"/>
+      <Final id="End...2071638018|_18_0_6_f4d0365_1753807809637_474085_13822"/>
+      <Script id="create_responses...2071638018|_18_0_6_f4d0365_1753812014140_974205_14039"
+              inputMap="im@2071638018h-1784287674"
+              map="sm2071638018h-1784287674"
+              nextId="...2071638018|_18_0_6_f4d0365_1758100219799_637533_13958"
+              outputMap="om@2071638018h-1784287674"/>
+      <Script id="blocked...2071638018|_18_0_6_f4d0365_1758100223778_690616_13968"
+              map="sm2071638018h-981329032"
+              nextId="End...2071638018|_18_0_6_f4d0365_1753807809637_474085_13822"
+              outputMap="om@2071638018h-981329032"/>
+      <Decision id="...2071638018|_18_0_6_f4d0365_1758100219799_637533_13958">
+         <Condition expression="compareEq...f2071638018h-1304393832.0_1"
+                    nextId="blocked...2071638018|_18_0_6_f4d0365_1758100223778_690616_13968"/>
+         <Default nextId="End...2071638018|_18_0_6_f4d0365_1753807809637_474085_13822"/>
+      </Decision>
+   </Flow>
+</Flows>

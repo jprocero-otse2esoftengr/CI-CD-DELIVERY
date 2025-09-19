@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <DataItem id="urn:Services.NameOfService1.Classes.idClass"
+             namespace="urn:Services.NameOfService1.Classes"/>
+   <DataItem id="urn:Services.NameOfService1.Classes.inputClass"
+             namespace="urn:Services.NameOfService1.Classes"/>
+   <DataItem id="urn:Services.NameOfService1.Classes.outputClass"
+             namespace="urn:Services.NameOfService1.Classes"/>
+   <DataItem id="urn:Services.NameOfService1.NameOfPortType1.NameOfPortType1"
+             namespace="urn:Services.NameOfService1.NameOfPortType1"/>
+   <DataItem id="sm2071638018h-1784287674_0">
+      <Element index="0" isNillable="true"/>
+   </DataItem>
+   <DataItem id="sm2071638018h-1784287674_1">
+      <Element index="0" isNillable="true"/>
+   </DataItem>
+   <DataItem id="sm2071638018h-1784287674_2">
+      <Element index="0" isNillable="true"/>
+   </DataItem>
+   <DataItem id="sm2071638018h-1784287674_3">
+      <Element index="0" isNillable="true"/>
+   </DataItem>
+   <DataItem id="sm2071638018h-1784287674_4">
+      <Element index="0" isNillable="true"/>
+   </DataItem>
+   <DataItem id="sm2071638018h-1784287674_5">
+      <Element index="0" isNillable="true"/>
+   </DataItem>
+   <DataItem id="sm2071638018h-1784287674_6">
+      <Element index="0" isNillable="true"/>
+   </DataItem>
+   <DataItem id="FO_value...f2071638018h-305305580.2_1">
+      <Element index="0" isNillable="true"/>
+   </DataItem>
+   <DataItem id="FO_value...f2071638018h-305305580.3_1">
+      <Element index="0" isNillable="true"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.HTTP.HeaderField"
+             namespace="urn:Base_Components.Add_Ons.HTTP"/>
+   <DataItem id="urn:Base_Components.Add_Ons.HTTP.Parameter"
+             namespace="urn:Base_Components.Add_Ons.HTTP"/>
+   <DataItem id="urn:Base_Components.Add_Ons.Java.MapEntry"
+             namespace="urn:Base_Components.Add_Ons.Java"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JavaScript.JavaScript"
+             namespace="urn:Base_Components.Add_Ons.JavaScript"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSBlobMessage"
+             namespace="urn:Base_Components.Add_Ons.JMS"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSConnectionInfo"
+             namespace="urn:Base_Components.Add_Ons.JMS"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSListener"
+             namespace="urn:Base_Components.Add_Ons.JMS"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSMessage"
+             namespace="urn:Base_Components.Add_Ons.JMS"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSReceiveParameter"
+             namespace="urn:Base_Components.Add_Ons.JMS"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSSendParameter"
+             namespace="urn:Base_Components.Add_Ons.JMS"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSSessionParameter"
+             namespace="urn:Base_Components.Add_Ons.JMS"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSStringMessage"
+             namespace="urn:Base_Components.Add_Ons.JMS"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSBooleanProperty"
+             namespace="urn:Base_Components.Add_Ons.JMS.Property"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSByteProperty"
+             namespace="urn:Base_Components.Add_Ons.JMS.Property"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSDoubleProperty"
+             namespace="urn:Base_Components.Add_Ons.JMS.Property"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSFloatProperty"
+             namespace="urn:Base_Components.Add_Ons.JMS.Property"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSIntegerProperty"
+             namespace="urn:Base_Components.Add_Ons.JMS.Property"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSLongProperty"
+             namespace="urn:Base_Components.Add_Ons.JMS.Property"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSShortProperty"
+             namespace="urn:Base_Components.Add_Ons.JMS.Property"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSStringProperty"
+             namespace="urn:Base_Components.Add_Ons.JMS.Property"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JSON.ComposerOptions"
+             namespace="urn:Base_Components.Add_Ons.JSON"/>
+   <DataItem id="urn:Base_Components.Add_Ons.LDAP.LDAPEntry"
+             namespace="urn:Base_Components.Add_Ons.LDAP"/>
+   <DataItem id="urn:Base_Components.Add_Ons.POP3.POP3Authentication"
+             namespace="urn:Base_Components.Add_Ons.POP3"/>
+   <DataItem id="urn:Base_Components.Add_Ons.POP3.POP3Message"
+             namespace="urn:Base_Components.Add_Ons.POP3"/>
+   <DataItem id="urn:Base_Components.Add_Ons.REST.AdapterResponse"
+             namespace="urn:Base_Components.Add_Ons.REST"/>
+   <DataItem id="urn:Base_Components.Add_Ons.REST.NoResponseBody"
+             namespace="urn:Base_Components.Add_Ons.REST"/>
+   <DataItem id="urn:Base_Components.Add_Ons.REST.Request"
+             namespace="urn:Base_Components.Add_Ons.REST"/>
+   <DataItem id="urn:Base_Components.Add_Ons.REST.RequestOptions"
+             namespace="urn:Base_Components.Add_Ons.REST"/>
+   <DataItem id="urn:Base_Components.Add_Ons.REST.Response"
+             namespace="urn:Base_Components.Add_Ons.REST"/>
+   <DataItem id="urn:Base_Components.Add_Ons.REST.Utilities"
+             namespace="urn:Base_Components.Add_Ons.REST"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.EDI_DC40"
+             namespace="urn:Base_Components.Add_Ons.SAP">
+      <Element index="30" xsdType="time"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.EDI_DD40"
+             namespace="urn:Base_Components.Add_Ons.SAP"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.IDOC"
+             namespace="urn:Base_Components.Add_Ons.SAP"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.IDOCs_FlatFile"
+             namespace="urn:Base_Components.Add_Ons.SAP"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.IDOC_FlatFile"
+             namespace="urn:Base_Components.Add_Ons.SAP"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.Tables"
+             namespace="urn:Base_Components.Add_Ons.SAP"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.TABLES"
+             namespace="urn:Base_Components.Add_Ons.SAP">
+      <Element index="0" xsdType="string"/>
+      <Element index="1" xsdType="string"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SMTP.SMTPMessage"
+             namespace="urn:Base_Components.Add_Ons.SMTP">
+      <Element index="0" xsdType="string"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.Code"
+             namespace="urn:Base_Components.Add_Ons.SOAP"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.HTTPTransport"
+             namespace="urn:Base_Components.Add_Ons.SOAP"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.Reason"
+             namespace="urn:Base_Components.Add_Ons.SOAP"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.SOAPFault"
+             namespace="urn:Base_Components.Add_Ons.SOAP"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.SOAPFault_12"
+             namespace="urn:Base_Components.Add_Ons.SOAP"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.SOAPHeaderElement"
+             namespace="urn:Base_Components.Add_Ons.SOAP"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.Utilities"
+             namespace="urn:Base_Components.Add_Ons.SOAP"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SQL.SQLAuthentication"
+             namespace="urn:Base_Components.Add_Ons.SQL"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SQL.SQLConfiguration"
+             namespace="urn:Base_Components.Add_Ons.SQL"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SQL.SQLHandle"
+             namespace="urn:Base_Components.Add_Ons.SQL"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SQL.Types.CLOB"
+             namespace="urn:Base_Components.Add_Ons.SQL.Types"/>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.Authentication"
+             namespace="urn:Base_Components.Add_Ons.URL"/>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.Certificate"
+             namespace="urn:Base_Components.Add_Ons.URL"/>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.HeaderField"
+             namespace="urn:Base_Components.Add_Ons.URL"/>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.Key"
+             namespace="urn:Base_Components.Add_Ons.URL"/>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.Option"
+             namespace="urn:Base_Components.Add_Ons.URL"/>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.Proxy"
+             namespace="urn:Base_Components.Add_Ons.URL"/>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.SSL"
+             namespace="urn:Base_Components.Add_Ons.URL"/>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.URLMessage"
+             namespace="urn:Base_Components.Add_Ons.URL">
+      <Element index="8" xsdType="string"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.XSLT.XSLTParameter"
+             namespace="urn:Base_Components.Add_Ons.XSLT"/>
+   <DataItem id="urn:Base_Components.Add_Ons.XSLT.XSLTParameters"
+             namespace="urn:Base_Components.Add_Ons.XSLT"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Meta.ActionInterceptorMessage"
+             namespace="urn:Base_Components.Advanced_Behavior.Meta"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Meta.Attribute"
+             namespace="urn:Base_Components.Advanced_Behavior.Meta"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Meta.Parameter"
+             namespace="urn:Base_Components.Advanced_Behavior.Meta"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Persistent_State.BPMNTask"
+             namespace="urn:Base_Components.Advanced_Behavior.Persistent_State"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Persistent_State.ErrorContext"
+             namespace="urn:Base_Components.Advanced_Behavior.Persistent_State"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Persistent_State.Event"
+             namespace="urn:Base_Components.Advanced_Behavior.Persistent_State"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Persistent_State.Handle"
+             namespace="urn:Base_Components.Advanced_Behavior.Persistent_State"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Persistent_State.StateInfo"
+             namespace="urn:Base_Components.Advanced_Behavior.Persistent_State"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.Attribute"
+             namespace="urn:Base_Components.Advanced_Behavior.Security"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.InterceptorMessage"
+             namespace="urn:Base_Components.Advanced_Behavior.Security"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.Parameter"
+             namespace="urn:Base_Components.Advanced_Behavior.Security"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.PostprocessorMessage"
+             namespace="urn:Base_Components.Advanced_Behavior.Security"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.PreprocessorMessage"
+             namespace="urn:Base_Components.Advanced_Behavior.Security"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.Principal"
+             namespace="urn:Base_Components.Advanced_Behavior.Security"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.Role"
+             namespace="urn:Base_Components.Advanced_Behavior.Security"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.SecurityToken"
+             namespace="urn:Base_Components.Advanced_Behavior.Security"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.SecurityTokenBasic"
+             namespace="urn:Base_Components.Advanced_Behavior.Security"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.CreditcardString"
+             namespace="urn:Base_Components.Advanced_Behavior.UI"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.Date"
+             namespace="urn:Base_Components.Advanced_Behavior.UI"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.DOMNode"
+             namespace="urn:Base_Components.Advanced_Behavior.UI"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.EMailString"
+             namespace="urn:Base_Components.Advanced_Behavior.UI"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.Logout"
+             namespace="urn:Base_Components.Advanced_Behavior.UI"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.Number"
+             namespace="urn:Base_Components.Advanced_Behavior.UI"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.PhoneUSString"
+             namespace="urn:Base_Components.Advanced_Behavior.UI"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.TableFilterRequest"
+             namespace="urn:Base_Components.Advanced_Behavior.UI">
+      <Element index="4" xsdType="int"/>
+      <Element index="5" xsdType="string"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.TableFilterResponse"
+             namespace="urn:Base_Components.Advanced_Behavior.UI"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.TreeElement"
+             namespace="urn:Base_Components.Advanced_Behavior.UI"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.UIAutocompletionElement"
+             namespace="urn:Base_Components.Advanced_Behavior.UI"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.UIAutocompletionRequest"
+             namespace="urn:Base_Components.Advanced_Behavior.UI"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.UIAutocompletionResponse"
+             namespace="urn:Base_Components.Advanced_Behavior.UI"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.UIEvent"
+             namespace="urn:Base_Components.Advanced_Behavior.UI"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.UISOAPErrorMessage"
+             namespace="urn:Base_Components.Advanced_Behavior.UI"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.URLString"
+             namespace="urn:Base_Components.Advanced_Behavior.UI"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.CompositeContext.Utilities"
+             namespace="urn:Base_Components.Basic_Behavior.CompositeContext"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.DateTime.DateTimeOutputStructure"
+             namespace="urn:Base_Components.Basic_Behavior.DateTime"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.DateTime.DateTimeStructure"
+             namespace="urn:Base_Components.Basic_Behavior.DateTime"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.DateTime.DurationStructure"
+             namespace="urn:Base_Components.Basic_Behavior.DateTime"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.DateTime.Utilities"
+             namespace="urn:Base_Components.Basic_Behavior.DateTime"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Error.Callstack"
+             namespace="urn:Base_Components.Basic_Behavior.Error"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Error.ConstraintViolation"
+             namespace="urn:Base_Components.Basic_Behavior.Error"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Error.Error"
+             namespace="urn:Base_Components.Basic_Behavior.Error"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Error.Utilities"
+             namespace="urn:Base_Components.Basic_Behavior.Error"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Error.ValidationResult"
+             namespace="urn:Base_Components.Basic_Behavior.Error"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Map.Entry"
+             namespace="urn:Base_Components.Basic_Behavior.Map"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Map.Map"
+             namespace="urn:Base_Components.Basic_Behavior.Map"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.MIME.MIMEHeaderField"
+             namespace="urn:Base_Components.Basic_Behavior.MIME"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.MIME.MIMEPart"
+             namespace="urn:Base_Components.Basic_Behavior.MIME"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.NumbersLocale"
+             namespace="urn:Base_Components.Basic_Behavior"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Select.Group"
+             namespace="urn:Base_Components.Basic_Behavior.Select"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.ServiceContext.ContextElement"
+             namespace="urn:Base_Components.Basic_Behavior.ServiceContext"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.ServiceContext.Utilities"
+             namespace="urn:Base_Components.Basic_Behavior.ServiceContext"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.String.Utilities"
+             namespace="urn:Base_Components.Basic_Behavior.String"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.XML.XMLComposeOptions"
+             namespace="urn:Base_Components.Basic_Behavior.XML">
+      <Element index="0" xsdType="string"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Basic_Behavior.XML.XMLParseOptions"
+             namespace="urn:Base_Components.Basic_Behavior.XML"/>
+   <DataItem id="urn:Base_Types.Any" namespace="urn:Base_Types"/>
+   <DataItem id="urn:Base_Types.Array" namespace="urn:Base_Types"/>
+   <DataItem id="urn:Base_Types.Array.element" namespace="urn:Base_Types.Array"/>
+   <DataItem id="urn:uml-interface:Base_Components.Add_Ons.SAP.RFCPort_IDOC_INBOUND_ASYNCHRONOUS"
+             namespace="urn:uml-interface:Base_Components.Add_Ons.SAP"/>
+   <DataItem id="urn:uml-interface:Base_Components.Add_Ons.SAP.RFCPort_IDOC_INBOUND_ASYNCHRONOUS_NEW"
+             namespace="urn:uml-interface:Base_Components.Add_Ons.SAP"/>
+   <DataItem id="urn:uml-signal:Base_Components.Advanced_Behavior.Persistent_State.AnySignal"
+             namespace="urn:uml-signal:Base_Components.Advanced_Behavior.Persistent_State"/>
+</SOAP>

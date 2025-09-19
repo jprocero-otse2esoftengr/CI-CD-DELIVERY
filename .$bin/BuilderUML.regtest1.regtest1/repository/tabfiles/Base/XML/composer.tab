@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_Composer xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Message>
+      <Name>urn:Services.NameOfService1.NameOfPortType1.NameOfPortType1.operation1</Name>
+      <NoRootElement>true</NoRootElement>
+      <DataItem>omsg2071638018h-2086909913</DataItem>
+   </Message>
+</XML_Composer>

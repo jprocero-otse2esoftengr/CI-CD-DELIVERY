@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataItems xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <DataItem id="urn:Services.NameOfService1.Classes.idClass" name="idClass">
+      <String name="type"/>
+      <String name="value"/>
+   </DataItem>
+   <DataItem id="urn:Services.NameOfService1.Classes.inputClass" name="inputClass">
+      <Integer name="employeeNumber"/>
+      <String name="firstName"/>
+      <String name="lastName"/>
+      <String name="position"/>
+   </DataItem>
+   <DataItem id="urn:Services.NameOfService1.Classes.outputClass" name="outputClass">
+      <Integer name="employeeNumber"/>
+      <String name="employeeName"/>
+      <Integer name="age"/>
+      <Float name="salary"/>
+      <Boolean name="withBonus"/>
+      <Float name="bonus"/>
+      <Array name="idArray" type="urn:Services.NameOfService1.Classes.idClass"/>
+      <Integer name="numberOfIDs"/>
+      <String name="status"/>
+      <String name="message"/>
+   </DataItem>
+   <DataItem id="urn:Services.NameOfService1.NameOfPortType1.NameOfPortType1"
+             name="NameOfPortType1"/>
+   <DataItem id="EMPTY_DATA_ITEM"/>
+   <DataItem id="imsg2071638018h-2086909913">
+      <Record name="request" type="urn:Services.NameOfService1.Classes.inputClass"/>
+   </DataItem>
+   <DataItem id="omsg2071638018h-2086909913">
+      <Record name="response" type="urn:Services.NameOfService1.Classes.outputClass"/>
+   </DataItem>
+   <DataItem id="_DBGR_urn:Services.NameOfService1.NameOfPortType1.NameOfPortType1.operation1">
+      <Record name="request" type="urn:Services.NameOfService1.Classes.inputClass"/>
+      <Record name="response" type="urn:Services.NameOfService1.Classes.outputClass"/>
+      <Record name="localId...173485614" type="urn:Services.NameOfService1.Classes.idClass"/>
+   </DataItem>
+   <DataItem id="imsg2071638018h-1784287674">
+      <Record name="__LOCALVAR__" type="urn:Services.NameOfService1.Classes.idClass"/>
+      <Record name="request" type="urn:Services.NameOfService1.Classes.inputClass"/>
+   </DataItem>
+   <DataItem id="omsg2071638018h-1784287674">
+      <Record name="__LOCALVAR__" type="urn:Services.NameOfService1.Classes.idClass"/>
+      <Record name="response" type="urn:Services.NameOfService1.Classes.outputClass"/>
+   </DataItem>
+   <DataItem id="omsg2071638018h-981329032">
+      <Record name="response" type="urn:Services.NameOfService1.Classes.outputClass"/>
+   </DataItem>
+   <DataItem id="sm2071638018h-1784287674_0">
+      <Record name="response" type="urn:Services.NameOfService1.Classes.outputClass"/>
+   </DataItem>
+   <DataItem id="sm2071638018h-1784287674_1">
+      <Integer name="response.employeeNumber...request.employeeNumber"/>
+   </DataItem>
+   <DataItem id="sm2071638018h-1784287674_2">
+      <String name="response.employeeName...request.lastName"/>
+   </DataItem>
+   <DataItem id="sm2071638018h-1784287674_3">
+      <Record name="localId" type="urn:Services.NameOfService1.Classes.idClass"/>
+   </DataItem>
+   <DataItem id="sm2071638018h-1784287674_4">
+      <String name="localId.type...value...f2071638018h-305305580.2_1"/>
+   </DataItem>
+   <DataItem id="sm2071638018h-1784287674_5">
+      <String name="localId.value...value...f2071638018h-305305580.3_1"/>
+   </DataItem>
+   <DataItem id="sm2071638018h-1784287674_6">
+      <Record name="response.idArray...localId"
+              type="urn:Services.NameOfService1.Classes.idClass"/>
+   </DataItem>
+   <DataItem id="FI_value...f2071638018h-305305580.2_1"/>
+   <DataItem id="FO_value...f2071638018h-305305580.2_1">
+      <String name="value...f2071638018h-305305580.2_1Return"/>
+   </DataItem>
+   <DataItem id="FI_value...f2071638018h-305305580.3_1"/>
+   <DataItem id="FO_value...f2071638018h-305305580.3_1">
+      <String name="value...f2071638018h-305305580.3_1Return"/>
+   </DataItem>
+   <DataItem id="sm2071638018h-981329032_0">
+      <Record name="response" type="urn:Services.NameOfService1.Classes.outputClass"/>
+   </DataItem>
+   <DataItem id="sm2071638018h-981329032_1">
+      <String name="response.status...value...f2071638018h1625116305.1_1"/>
+   </DataItem>
+   <DataItem id="sm2071638018h-981329032_2">
+      <String name="response.message...value...f2071638018h1625116305.2_1"/>
+   </DataItem>
+   <DataItem id="FI_value...f2071638018h1625116305.1_1"/>
+   <DataItem id="FO_value...f2071638018h1625116305.1_1">
+      <String name="value...f2071638018h1625116305.1_1Return"/>
+   </DataItem>
+   <DataItem id="FI_value...f2071638018h1625116305.2_1"/>
+   <DataItem id="FO_value...f2071638018h1625116305.2_1">
+      <String name="value...f2071638018h1625116305.2_1Return"/>
+   </DataItem>
+   <DataItem id="FI_compareEq...f2071638018h-1304393832.0_1">
+      <String name="request.lastName"/>
+      <String name="value...f2071638018h-1304393832.1_3"/>
+   </DataItem>
+   <DataItem id="FO_compareEq...f2071638018h-1304393832.0_1">
+      <Boolean name="compareEq...f2071638018h-1304393832.0_1Return"/>
+   </DataItem>
+   <DataItem id="FI_value...f2071638018h-1304393832.1_3"/>
+   <DataItem id="FO_value...f2071638018h-1304393832.1_3">
+      <String name="value...f2071638018h-1304393832.1_3Return"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.HTTP.HeaderField" name="HeaderField">
+      <String name="name"/>
+      <String name="value"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.HTTP.Parameter" name="Parameter">
+      <String name="name"/>
+      <String name="value"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.Java.MapEntry" name="MapEntry">
+      <Record name="key" type="urn:Base_Types.Any"/>
+      <Record name="value" type="urn:Base_Types.Any"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.JavaScript.JavaScript" name="JavaScript">
+      <String name="script"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSBlobMessage" name="JMSBlobMessage"
+             parent="urn:Base_Components.Add_Ons.JMS.JMSMessage">
+      <Array name="longProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSLongProperty"/>
+      <Array name="byteProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSByteProperty"/>
+      <Array name="booleanProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSBooleanProperty"/>
+      <Array name="doubleProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSDoubleProperty"/>
+      <Array name="stringProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSStringProperty"/>
+      <Array name="integerProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSIntegerProperty"/>
+      <Array name="floatProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSFloatProperty"/>
+      <Array name="shortProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSShortProperty"/>
+      <String name="JMSCorrelationID"/>
+      <Boolean defaultValue="true" name="JMSPersistentDeliveryMode"/>
+      <String name="JMSDestination"/>
+      <Integer name="JMSExpiration"/>
+      <String name="JMSMessageID"/>
+      <Integer defaultValue="4" name="JMSPriority"/>
+      <Boolean name="JMSRedelivered"/>
+      <String name="JMSReplyTo"/>
+      <Integer name="JMSTimestamp"/>
+      <String name="JMSType"/>
+      <Blob name="JMSCorrelationIDAsBytes"/>
+      <Blob name="message"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSConnectionInfo" name="JMSConnectionInfo">
+      <Record name="acknowledgeMode"/>
+      <String name="name"/>
+      <String name="user"/>
+      <String name="password"/>
+      <String name="path"/>
+      <String name="protocol"/>
+      <String name="host"/>
+      <Integer name="port"/>
+      <Array name="properties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSStringProperty"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSListener" name="JMSListener"/>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSMessage" name="JMSMessage">
+      <Array name="longProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSLongProperty"/>
+      <Array name="byteProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSByteProperty"/>
+      <Array name="booleanProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSBooleanProperty"/>
+      <Array name="doubleProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSDoubleProperty"/>
+      <Array name="stringProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSStringProperty"/>
+      <Array name="integerProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSIntegerProperty"/>
+      <Array name="floatProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSFloatProperty"/>
+      <Array name="shortProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSShortProperty"/>
+      <String name="JMSCorrelationID"/>
+      <Boolean defaultValue="true" name="JMSPersistentDeliveryMode"/>
+      <String name="JMSDestination"/>
+      <Integer name="JMSExpiration"/>
+      <String name="JMSMessageID"/>
+      <Integer defaultValue="4" name="JMSPriority"/>
+      <Boolean name="JMSRedelivered"/>
+      <String name="JMSReplyTo"/>
+      <Integer name="JMSTimestamp"/>
+      <String name="JMSType"/>
+      <Blob name="JMSCorrelationIDAsBytes"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSReceiveParameter"
+             name="JMSReceiveParameter">
+      <String name="queueName"/>
+      <String name="selector"/>
+      <Integer name="millisecondsToWait"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSSendParameter" name="JMSSendParameter">
+      <String name="queueName"/>
+      <Integer name="timeToLive"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSSessionParameter"
+             name="JMSSessionParameter">
+      <Record name="acknowledgeMode"/>
+      <String name="name"/>
+      <String name="connectionFactoryClass"/>
+      <Array name="connectionFactoryProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSStringProperty"/>
+      <String name="user"/>
+      <String name="password"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.JMSStringMessage" name="JMSStringMessage"
+             parent="urn:Base_Components.Add_Ons.JMS.JMSMessage">
+      <Array name="longProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSLongProperty"/>
+      <Array name="byteProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSByteProperty"/>
+      <Array name="booleanProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSBooleanProperty"/>
+      <Array name="doubleProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSDoubleProperty"/>
+      <Array name="stringProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSStringProperty"/>
+      <Array name="integerProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSIntegerProperty"/>
+      <Array name="floatProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSFloatProperty"/>
+      <Array name="shortProperties"
+             type="urn:Base_Components.Add_Ons.JMS.Property.JMSShortProperty"/>
+      <String name="JMSCorrelationID"/>
+      <Boolean defaultValue="true" name="JMSPersistentDeliveryMode"/>
+      <String name="JMSDestination"/>
+      <Integer name="JMSExpiration"/>
+      <String name="JMSMessageID"/>
+      <Integer defaultValue="4" name="JMSPriority"/>
+      <Boolean name="JMSRedelivered"/>
+      <String name="JMSReplyTo"/>
+      <Integer name="JMSTimestamp"/>
+      <String name="JMSType"/>
+      <Blob name="JMSCorrelationIDAsBytes"/>
+      <String name="message"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSBooleanProperty"
+             name="JMSBooleanProperty">
+      <String name="key"/>
+      <Boolean name="value"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSByteProperty"
+             name="JMSByteProperty">
+      <String name="key"/>
+      <Integer name="value"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSDoubleProperty"
+             name="JMSDoubleProperty">
+      <String name="key"/>
+      <Float name="value"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSFloatProperty"
+             name="JMSFloatProperty">
+      <String name="key"/>
+      <Float name="value"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSIntegerProperty"
+             name="JMSIntegerProperty">
+      <String name="key"/>
+      <Integer name="value"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSLongProperty"
+             name="JMSLongProperty">
+      <String name="key"/>
+      <Integer name="value"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSShortProperty"
+             name="JMSShortProperty">
+      <String name="key"/>
+      <Integer name="value"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.JMS.Property.JMSStringProperty"
+             name="JMSStringProperty">
+      <String name="key"/>
+      <String name="value"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.JSON.ComposerOptions" name="ComposerOptions">
+      <Boolean name="keepNulls"/>
+      <Boolean name="compact"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.LDAP.LDAPEntry" name="LDAPEntry">
+      <String name="dn"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.POP3.POP3Authentication"
+             name="POP3Authentication">
+      <String name="username"/>
+      <String name="password"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.POP3.POP3Message" name="POP3Message">
+      <String name="id"/>
+      <String name="sender"/>
+      <String name="recipient"/>
+      <String name="subject"/>
+      <DateTime name="date"/>
+      <Blob name="content"/>
+      <Array name="headerParameters"
+             type="urn:Base_Components.Basic_Behavior.MIME.MIMEHeaderField"/>
+      <Blob name="header"/>
+      <Integer name="messageNumber"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.REST.AdapterResponse" name="AdapterResponse">
+      <Integer name="httpStatus"/>
+      <Array name="headers" type="urn:Base_Components.Add_Ons.HTTP.HeaderField"/>
+      <Blob name="body"/>
+      <Record name="responseObject" type="urn:Base_Types.Any"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.REST.NoResponseBody" name="NoResponseBody"/>
+   <DataItem id="urn:Base_Components.Add_Ons.REST.Request" name="Request">
+      <String name="method"/>
+      <Array name="headers" type="urn:Base_Components.Add_Ons.HTTP.HeaderField"/>
+      <String name="queryString"/>
+      <Array name="queryParameters" type="urn:Base_Components.Add_Ons.HTTP.Parameter"/>
+      <Blob name="body"/>
+      <String name="path"/>
+      <Record name="pathParameters" type="urn:Base_Components.Basic_Behavior.Map.Map"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.REST.RequestOptions" name="RequestOptions">
+      <Array name="additionalHeaders" type="urn:Base_Components.Add_Ons.HTTP.HeaderField"/>
+      <Array name="options" type="urn:Base_Components.Add_Ons.URL.Option"/>
+      <Record name="ssl" type="urn:Base_Components.Add_Ons.URL.SSL"/>
+      <Record name="proxy" type="urn:Base_Components.Add_Ons.URL.Proxy"/>
+      <Array name="additionalQueryParameters"
+             type="urn:Base_Components.Add_Ons.HTTP.Parameter"/>
+      <Integer name="followRedirects"/>
+      <Record name="basicAuth" type="urn:Base_Components.Add_Ons.URL.Authentication"/>
+      <String name="basePath"/>
+      <String name="host"/>
+      <Integer name="port"/>
+      <String name="protocol"/>
+      <Boolean name="ignoreHttpErrors"/>
+      <Record name="jsonComposerOptions"
+              type="urn:Base_Components.Add_Ons.JSON.ComposerOptions"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.REST.Response" name="Response">
+      <Array name="headers" type="urn:Base_Components.Add_Ons.HTTP.HeaderField"/>
+      <Integer name="httpStatus"/>
+      <Record name="responseObject" type="urn:Base_Types.Any"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.REST.Utilities" name="Utilities"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.EDI_DC40" name="EDI_DC40">
+      <String name="TABNAM"/>
+      <String name="MANDT"/>
+      <String name="DOCNUM"/>
+      <String name="DOCREL"/>
+      <String name="STATUS"/>
+      <String name="DIRECT"/>
+      <String name="OUTMOD"/>
+      <String name="EXPRSS"/>
+      <String name="TEST"/>
+      <String name="IDOCTYP"/>
+      <String name="CIMTYP"/>
+      <String name="MESTYP"/>
+      <String name="MESCOD"/>
+      <String name="MESFCT"/>
+      <String name="STD"/>
+      <String name="STDVRS"/>
+      <String name="STDMES"/>
+      <String name="SNDPOR"/>
+      <String name="SNDPRT"/>
+      <String name="SNDPFC"/>
+      <String name="SNDPRN"/>
+      <String name="SNDSAD"/>
+      <String name="SNDLAD"/>
+      <String name="RCVPOR"/>
+      <String name="RCVPRT"/>
+      <String name="RCVPFC"/>
+      <String name="RCVPRN"/>
+      <String name="RCVSAD"/>
+      <String name="RCVLAD"/>
+      <DateTime name="CREDAT"/>
+      <DateTime name="CRETIM"/>
+      <String name="REFINT"/>
+      <String name="REFGRP"/>
+      <String name="REFMES"/>
+      <String name="ARCKEY"/>
+      <String name="SERIAL"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.EDI_DD40" name="EDI_DD40">
+      <String name="SEGNAM"/>
+      <String name="MANDT"/>
+      <String name="DOCNUM"/>
+      <String name="SEGNUM"/>
+      <String name="PSGNUM"/>
+      <String name="HLEVEL"/>
+      <String name="SDATA"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.IDOC" name="IDOC">
+      <Record name="idoc_ControlRecord" type="urn:Base_Components.Add_Ons.SAP.EDI_DC40"/>
+      <Array name="idoc_DataRecord" type="urn:Base_Components.Add_Ons.SAP.EDI_DD40"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.IDOCs_FlatFile" name="IDOCs_FlatFile">
+      <Array name="idocs" type="urn:Base_Components.Add_Ons.SAP.IDOC"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.IDOC_FlatFile" name="IDOC_FlatFile">
+      <Record name="idoc_ControlRecord" type="urn:Base_Components.Add_Ons.SAP.EDI_DC40"/>
+      <Array name="idoc_DataRecord" type="urn:Base_Components.Add_Ons.SAP.EDI_DD40"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.Tables" name="Tables">
+      <Array name="IDOC_CONTROL_REC_40" type="urn:Base_Components.Add_Ons.SAP.EDI_DC40"/>
+      <Array name="IDOC_DATA_REC_40" type="urn:Base_Components.Add_Ons.SAP.EDI_DD40"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SAP.TABLES" name="TABLES">
+      <Array name="IDOC_CONTROL_REC_40" type="String"/>
+      <Array name="IDOC_DATA_REC_40" type="String"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SMTP.SMTPMessage" name="SMTPMessage">
+      <Array name="recipients" type="String"/>
+      <String name="content"/>
+      <String name="server"/>
+      <Integer name="port"/>
+      <String name="domainName"/>
+      <String name="sender"/>
+      <Array name="headerParameters"
+             type="urn:Base_Components.Basic_Behavior.MIME.MIMEHeaderField"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.Code" name="Code">
+      <String name="value"/>
+      <String name="namespace"/>
+      <Record name="subcode" type="urn:Base_Components.Add_Ons.SOAP.Code"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.HTTPTransport" name="HTTPTransport">
+      <Integer name="statusCode"/>
+      <Array name="headers" type="urn:Base_Components.Add_Ons.HTTP.HeaderField"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.Reason" name="Reason">
+      <String name="text"/>
+      <String name="lang"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.SOAPFault" name="SOAPFault">
+      <String name="faultcode"/>
+      <String name="faultstring"/>
+      <String name="faultactor"/>
+      <String name="namespace"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.SOAPFault_12" name="SOAPFault_12">
+      <Record name="code" type="urn:Base_Components.Add_Ons.SOAP.Code"/>
+      <Array name="reason" type="urn:Base_Components.Add_Ons.SOAP.Reason"/>
+      <String name="role"/>
+      <String name="node"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.SOAPHeaderElement"
+             name="SOAPHeaderElement">
+      <String name="name"/>
+      <String name="namespace"/>
+      <String name="encoding"/>
+      <String name="role"/>
+      <Boolean name="mustunderstand"/>
+      <Boolean name="relay"/>
+      <Blob name="header"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SOAP.Utilities" name="Utilities"/>
+   <DataItem id="urn:Base_Components.Add_Ons.SQL.SQLAuthentication" name="SQLAuthentication">
+      <String name="username"/>
+      <String name="password"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SQL.SQLConfiguration" name="SQLConfiguration">
+      <Record name="authentication" type="urn:Base_Components.Add_Ons.SQL.SQLAuthentication"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SQL.SQLHandle" name="SQLHandle">
+      <String name="id"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.SQL.Types.CLOB" name="CLOB">
+      <String name="value"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.Authentication" name="Authentication">
+      <String name="username"/>
+      <String name="password"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.Certificate" name="Certificate">
+      <String name="file"/>
+      <String name="type"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.HeaderField" name="HeaderField">
+      <String name="name"/>
+      <String name="value"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.Key" name="Key">
+      <String name="file"/>
+      <String name="type"/>
+      <String name="password"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.Option" name="Option">
+      <String name="name"/>
+      <String name="value"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.Proxy" name="Proxy">
+      <String name="url"/>
+      <String name="type"/>
+      <Record name="authentication" type="urn:Base_Components.Add_Ons.URL.Authentication"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.SSL" name="SSL">
+      <String name="verifyPeer"/>
+      <String name="verifyHost"/>
+      <String name="caInfo"/>
+      <Record name="certificate" type="urn:Base_Components.Add_Ons.URL.Certificate"/>
+      <Record name="key" type="urn:Base_Components.Add_Ons.URL.Key"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.URL.URLMessage" name="URLMessage">
+      <String name="url"/>
+      <Blob name="content"/>
+      <Array name="headerParameters" type="urn:Base_Components.Add_Ons.URL.HeaderField"/>
+      <String name="method"/>
+      <Record name="authentication" type="urn:Base_Components.Add_Ons.URL.Authentication"/>
+      <Record name="proxy" type="urn:Base_Components.Add_Ons.URL.Proxy"/>
+      <Integer name="followRedirects"/>
+      <Record name="ssl" type="urn:Base_Components.Add_Ons.URL.SSL"/>
+      <Array name="commands" type="String"/>
+      <Array name="options" type="urn:Base_Components.Add_Ons.URL.Option"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.XSLT.XSLTParameter" name="XSLTParameter">
+      <String name="name"/>
+      <String name="value"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Add_Ons.XSLT.XSLTParameters" name="XSLTParameters">
+      <Array name="parameters" type="urn:Base_Components.Add_Ons.XSLT.XSLTParameter"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Meta.ActionInterceptorMessage"
+             name="ActionInterceptorMessage">
+      <Array name="parameters" type="urn:Base_Components.Advanced_Behavior.Meta.Parameter"/>
+      <String name="name"/>
+      <Record name="context" type="urn:Base_Types.Any"/>
+      <String name="stereotype"/>
+      <String name="umlType"/>
+      <Record name="target" type="urn:Base_Types.Any"/>
+      <Boolean defaultValue="false" name="ignoreAction"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Meta.Attribute" name="Attribute">
+      <String name="name"/>
+      <Record name="value" type="urn:Base_Types.Any"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Meta.Parameter" name="Parameter">
+      <String name="name"/>
+      <Record name="value" type="urn:Base_Types.Any"/>
+      <String name="direction"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Persistent_State.BPMNTask"
+             name="BPMNTask">
+      <String name="name"/>
+      <String name="stateName"/>
+      <DateTime name="begin"/>
+      <Boolean name="isForCompensation"/>
+      <Boolean name="hasCompensation"/>
+      <DateTime name="end"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Persistent_State.ErrorContext"
+             name="ErrorContext">
+      <String name="actionType"/>
+      <String name="actionID"/>
+      <String name="sourceStateID"/>
+      <String name="targetStateID"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Persistent_State.Event" name="Event">
+      <String name="id"/>
+      <String name="classifier"/>
+      <String name="name"/>
+      <String name="objectID"/>
+      <String name="eventType"/>
+      <String name="eventSource"/>
+      <Blob name="eventBlob"/>
+      <DateTime name="eventTS"/>
+      <DateTime name="creationTS"/>
+      <Integer name="sequenceNumber"/>
+      <Integer name="deliveryTrials"/>
+      <Integer name="maxDeliveryTrials"/>
+      <String name="owner"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Persistent_State.Handle"
+             name="Handle">
+      <String name="objectID"/>
+      <String name="classifier"/>
+      <String name="owner"/>
+      <String name="conversationID"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Persistent_State.StateInfo"
+             name="StateInfo">
+      <String name="id"/>
+      <String name="type"/>
+      <DateTime name="entryTime"/>
+      <String name="token"/>
+      <String name="parentToken"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.Attribute" name="Attribute">
+      <String name="name"/>
+      <Record name="value" type="urn:Base_Types.Any"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.InterceptorMessage"
+             name="InterceptorMessage">
+      <Record name="principal"
+              type="urn:Base_Components.Advanced_Behavior.Security.Principal"/>
+      <Array name="parameters"
+             type="urn:Base_Components.Advanced_Behavior.Security.Parameter"/>
+      <String name="operation"/>
+      <String name="transactionID"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.Parameter" name="Parameter">
+      <String name="name"/>
+      <Record name="value" type="urn:Base_Types.Any"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.PostprocessorMessage"
+             name="PostprocessorMessage">
+      <Record name="principal"
+              type="urn:Base_Components.Advanced_Behavior.Security.Principal"/>
+      <Record name="outputMessage" type="urn:Base_Types.Any"/>
+      <String name="operation"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.PreprocessorMessage"
+             name="PreprocessorMessage">
+      <Record name="principal"
+              type="urn:Base_Components.Advanced_Behavior.Security.Principal"/>
+      <Record name="inputMessage" type="urn:Base_Types.Any"/>
+      <String name="operation"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.Principal" name="Principal">
+      <String name="userID"/>
+      <Array name="securityTokens"
+             type="urn:Base_Components.Advanced_Behavior.Security.SecurityToken"/>
+      <Array name="roles" type="urn:Base_Components.Advanced_Behavior.Security.Role"/>
+      <Array name="attributes"
+             type="urn:Base_Components.Advanced_Behavior.Security.Attribute"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.Role" name="Role">
+      <String name="name"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.SecurityToken"
+             name="SecurityToken">
+      <String name="type"/>
+      <Boolean name="isVerified"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.Security.SecurityTokenBasic"
+             name="SecurityTokenBasic"
+             parent="urn:Base_Components.Advanced_Behavior.Security.SecurityToken">
+      <String name="type"/>
+      <Boolean name="isVerified"/>
+      <String name="userName"/>
+      <String name="password"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.CreditcardString"
+             name="CreditcardString"
+             parent="urn:Base_Types.String"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.Date" name="Date"
+             parent="urn:Base_Types.DateTime"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.DOMNode" name="DOMNode"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.EMailString" name="EMailString"
+             parent="urn:Base_Types.String"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.Logout" name="Logout">
+      <String name="userID"/>
+      <String name="userToken"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.Number" name="Number"
+             parent="urn:Base_Types.Float"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.PhoneUSString"
+             name="PhoneUSString"
+             parent="urn:Base_Types.String"/>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.TableFilterRequest"
+             name="TableFilterRequest">
+      <Integer name="displayStart"/>
+      <Integer name="displayLength"/>
+      <String name="search"/>
+      <Boolean name="isRegex"/>
+      <Array name="sortColumn" type="Integer"/>
+      <Array name="sortDirection" type="String"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.TableFilterResponse"
+             name="TableFilterResponse">
+      <Integer name="totalRecords"/>
+      <Integer name="totalDisplayRecords"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.TreeElement" name="TreeElement">
+      <String name="label"/>
+      <String name="id"/>
+      <String name="group"/>
+      <Boolean name="isLeaf"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.UIAutocompletionElement"
+             name="UIAutocompletionElement">
+      <String name="label"/>
+      <String name="value"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.UIAutocompletionRequest"
+             name="UIAutocompletionRequest">
+      <String name="input"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.UIAutocompletionResponse"
+             name="UIAutocompletionResponse">
+      <Array name="items"
+             type="urn:Base_Components.Advanced_Behavior.UI.UIAutocompletionElement"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.UIEvent" name="UIEvent">
+      <Record name="target" type="urn:Base_Components.Advanced_Behavior.UI.DOMNode"/>
+      <Record name="data" type="urn:Base_Types.Any"/>
+      <Record name="type"/>
+      <Integer name="timeStamp"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.UISOAPErrorMessage"
+             name="UISOAPErrorMessage">
+      <String name="code"/>
+      <String name="type"/>
+      <String name="description"/>
+      <String name="category"/>
+      <String name="callstack"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Advanced_Behavior.UI.URLString" name="URLString"
+             parent="urn:Base_Types.String"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.CompositeContext.Utilities"
+             name="Utilities"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.DateTime.DateTimeOutputStructure"
+             name="DateTimeOutputStructure"
+             parent="urn:Base_Components.Basic_Behavior.DateTime.DateTimeStructure">
+      <Integer name="years"/>
+      <Integer name="months"/>
+      <Integer name="days"/>
+      <Integer name="hours"/>
+      <Integer name="minutes"/>
+      <Integer name="seconds"/>
+      <Integer name="microseconds"/>
+      <Integer name="weekday"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Basic_Behavior.DateTime.DateTimeStructure"
+             name="DateTimeStructure">
+      <Integer name="years"/>
+      <Integer name="months"/>
+      <Integer name="days"/>
+      <Integer name="hours"/>
+      <Integer name="minutes"/>
+      <Integer name="seconds"/>
+      <Integer name="microseconds"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Basic_Behavior.DateTime.DurationStructure"
+             name="DurationStructure">
+      <Integer name="years"/>
+      <Integer name="months"/>
+      <Integer name="days"/>
+      <Integer name="hours"/>
+      <Integer name="minutes"/>
+      <Integer name="seconds"/>
+      <Integer name="microseconds"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Basic_Behavior.DateTime.Utilities" name="Utilities"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Error.Callstack" name="Callstack">
+      <String name="type"/>
+      <String name="details"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Error.ConstraintViolation"
+             name="ConstraintViolation">
+      <String name="constraintName"/>
+      <String name="constrainedClass"/>
+      <String name="constrainedAttribute"/>
+      <String name="constrainedObject"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Error.Error" name="Error">
+      <String name="category"/>
+      <String name="domain"/>
+      <String name="code"/>
+      <String name="description"/>
+      <Blob name="response"/>
+      <Record name="detail" type="urn:Base_Types.Any"/>
+      <Array name="callstack" type="urn:Base_Components.Basic_Behavior.Error.Callstack"/>
+      <DateTime name="timestamp"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Error.Utilities" name="Utilities"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Error.ValidationResult"
+             name="ValidationResult">
+      <Array name="violatedConstraints"
+             type="urn:Base_Components.Basic_Behavior.Error.ConstraintViolation"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Map.Entry" name="Entry">
+      <String name="key"/>
+      <Record name="value" type="urn:Base_Types.Any"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Map.Map" name="Map">
+      <String name="id"/>
+      <Array name="mapEntries" type="urn:Base_Components.Basic_Behavior.Map.Entry"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Basic_Behavior.MIME.MIMEHeaderField"
+             name="MIMEHeaderField">
+      <String name="name"/>
+      <String name="value"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Basic_Behavior.MIME.MIMEPart" name="MIMEPart">
+      <Blob name="content"/>
+      <Array name="complexContent" type="urn:Base_Components.Basic_Behavior.MIME.MIMEPart"/>
+      <String defaultValue="text/plain" name="contentType"/>
+      <String defaultValue="ISO-8859-1" name="contentCharset"/>
+      <String name="contentName"/>
+      <String name="contentID"/>
+      <Array name="headerParameters"
+             type="urn:Base_Components.Basic_Behavior.MIME.MIMEHeaderField"/>
+      <String name="contentLocation"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Basic_Behavior.NumbersLocale" name="NumbersLocale">
+      <String name="negativeSign"/>
+      <String name="positiveSign"/>
+      <String name="thousandsSeparator"/>
+      <String name="decimalPoint"/>
+      <String name="currencySymbol"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Basic_Behavior.Select.Group" name="Group">
+      <Record name="key" type="urn:Base_Types.Any"/>
+      <Array name="values" type="urn:Base_Types.Any"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Basic_Behavior.ServiceContext.ContextElement"
+             name="ContextElement">
+      <String name="name"/>
+      <String name="value"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Basic_Behavior.ServiceContext.Utilities"
+             name="Utilities"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.String.Utilities" name="Utilities"/>
+   <DataItem id="urn:Base_Components.Basic_Behavior.XML.XMLComposeOptions"
+             name="XMLComposeOptions">
+      <Array name="prolog" type="String"/>
+      <String name="timezone"/>
+      <String defaultValue="%F" name="dateFormatString"/>
+      <String defaultValue="UTF-8" name="encoding"/>
+      <String name="rootName"/>
+      <String name="rootNamespace"/>
+   </DataItem>
+   <DataItem id="urn:Base_Components.Basic_Behavior.XML.XMLParseOptions"
+             name="XMLParseOptions">
+      <Boolean name="validation"/>
+      <Boolean name="validationDynamic"/>
+      <Boolean name="validationSchema"/>
+      <Boolean name="validationSchemaFullChecking"/>
+      <Boolean name="nonvalidatingLoadExternalDTD"/>
+      <Boolean name="standardURIConformant"/>
+      <Boolean name="validationIdentityConstraintChecking"/>
+      <Boolean name="validationSchemaSkipDTDValidation"/>
+      <Boolean name="disableDefaultEntityResolution"/>
+      <Boolean name="namespaces"/>
+      <Boolean name="namespacePrefixes"/>
+      <String name="externalSchemaLocation"/>
+      <String name="externalNoNamespaceSchemaLocation"/>
+      <String name="scannerName"/>
+      <Integer name="entityExpansionLimit"/>
+   </DataItem>
+   <DataItem id="urn:Base_Types.Any" name="Any"/>
+   <DataItem id="urn:Base_Types.Array" name="Array" parent="urn:Base_Types.Any"/>
+   <DataItem id="urn:Base_Types.Array.element" name="element"/>
+   <DataItem id="urn:uml-interface:Base_Components.Add_Ons.SAP.RFCPort_IDOC_INBOUND_ASYNCHRONOUS"
+             name="RFCPort_IDOC_INBOUND_ASYNCHRONOUS"/>
+   <DataItem id="urn:uml-interface:Base_Components.Add_Ons.SAP.RFCPort_IDOC_INBOUND_ASYNCHRONOUS_NEW"
+             name="RFCPort_IDOC_INBOUND_ASYNCHRONOUS_NEW"/>
+   <DataItem id="urn:uml-signal:Base_Components.Advanced_Behavior.Persistent_State.AnySignal"
+             name="AnySignal"/>
+</DataItems>

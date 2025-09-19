@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Logger>
+   <LogFiles>
+      <LogFile>
+         <Name>logs/bridgeserver_</Name>
+         <Level>Info</Level>
+         <Zone>LOCAL</Zone>
+      </LogFile>
+      <StdErr>
+         <Level>Info</Level>
+         <Zone>Local</Zone>
+         <Format>%Time%:%Level%:%Category%:%Domain%:%Code%:%Description%</Format>
+      </StdErr>
+   </LogFiles>
+   <TransactionFiles>
+      <TransactionFile>
+         <Name>logs/transaction_</Name>
+         <Level>None</Level>
+      </TransactionFile>
+   </TransactionFiles>
+</Logger>

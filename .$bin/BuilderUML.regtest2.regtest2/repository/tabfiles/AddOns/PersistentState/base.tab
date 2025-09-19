@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><PersistentStateAddOn xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Configuration>
+      <WorkerLimit>2</WorkerLimit>
+      <Owner>regtest2</Owner>
+   </Configuration>
+</PersistentStateAddOn>

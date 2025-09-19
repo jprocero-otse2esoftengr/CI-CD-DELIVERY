@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InspectionList xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Model id="2071638018|ROOT_MODEL_XMI.ID" name="BuilderUML">
+      <Package name="Services">
+         <Package name="NameOfService1">
+            <Package name="NameOfPortType1">
+               <Class name="NameOfPortType1">
+                  <Activity name="Implementation of Operation 1">
+                     <Action id="create_responses...2071638018|_18_0_6_f4d0365_1753812014140_974205_14039"
+                             name="create responses"
+                             traceName="transformerFlow"/>
+                  </Activity>
+               </Class>
+            </Package>
+         </Package>
+      </Package>
+   </Model>
+   <Model id="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167" name="BuilderUML"/>
+</InspectionList>

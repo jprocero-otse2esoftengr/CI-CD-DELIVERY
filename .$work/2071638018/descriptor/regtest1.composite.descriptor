@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Deployment name="regtest1">
+   <Configurations>
+      <Configuration category="Training2025" classToXMLDefaultRootName="Default"
+                     classifierID="2071638018|_18_0_6_f4d0365_1753839490742_356278_13950"
+                     classifierName="regtest1"
+                     control="${global_e2e_configuration_controller_Port}"
+                     host="localhost"
+                     id="2071638018|_18_0_6_f4d0365_1753839490742_356278_13950"
+                     name="regtest1"
+                     umlLocation="2071638018|ROOT_MODEL_XMI.ID~2071638018|_18_0_6_f4d0365_1753839490615_807677_13916~2071638018|_18_0_6_f4d0365_1753839490742_161846_13951~2071638018|_18_0_6_f4d0365_1753839490742_356278_13950"
+                     version="0.0.1">
+         <PersistentStateConfiguration>
+            <Data>
+               <WorkerLimit>${ALIAS_Persistent State_WorkerLimit}</WorkerLimit>
+               <Owner>${ALIAS_Persistent State_Owner}</Owner>
+            </Data>
+            <Substitutions>
+               <Substitute default="2" label="Persistent State: WorkerLimit: "
+                           variableName="ALIAS_Persistent State_WorkerLimit"/>
+               <Substitute default="regtest1" label="Persistent State: Owner: "
+                           variableName="ALIAS_Persistent State_Owner"/>
+            </Substitutions>
+         </PersistentStateConfiguration>
+         <GlobalSAPSettings DefaultConnectionPoolSize="10" FieldPadding="NEVER" ServerWorkerThreads="1"/>
+         <CompilerInformation>
+            <BuildTime millis="1758103290178">Wed, Sep 17, 2025, 18:01:30 SGT</BuildTime>
+            <Compiler version="7.4.0"/>
+            <Builder runtime="2019.3" version="7.4.0"/>
+         </CompilerInformation>
+         <Services>
+            <Service authenticationMode="None"
+                     externalURL="http://${wsdl_host_urn:Component_View.Composites.regtest1.BuilderUMLService}:${addOn_SEI_HTTP_Service_BuilderUMLService_Port}"
+                     id="2071638018|_18_0_6_f4d0365_1753839490742_809534_13966"
+                     instanceName="BuilderUMLService"
+                     label="BuilderUMLService:BuilderUMLService"
+                     name="BuilderUMLService"
+                     namespace="urn:Component_View.Composites"
+                     package="Component_View.Composites.regtest1"
+                     port="${addOn_SEI_HTTP_Service_BuilderUMLService_Port}"
+                     protocol="http"
+                     stereotype="E2ESOAPService"
+                     umlLocation="2071638018|ROOT_MODEL_XMI.ID~2071638018|_18_0_6_f4d0365_1753839490615_807677_13916~2071638018|_18_0_6_f4d0365_1753839490742_161846_13951~2071638018|_18_0_6_f4d0365_1753839490742_356278_13950~2071638018|_18_0_6_f4d0365_1753839490742_809534_13966"
+                     url="http://NoHostInfo:${addOn_SEI_HTTP_Service_BuilderUMLService_Port}"
+                     wsdl="true"
+                     wsdlServicePath="/BuilderUMLService"
+                     wsdlURI="http://${server_hostname}:${addOn_SEI_HTTP_Service_BuilderUMLService_Port}/BuilderUMLService?wsdl">
+               <Documentation/>
+               <Ports>
+                  <Port enabledID="addOn_BuilderUMLService.NameOfPortType1_Enabled"
+                        escapedPath="/BuilderUMLService/NameOfPortType1"
+                        instanceName="NameOfPortType1"
+                        name="NameOfPortType1"
+                        package="Services.NameOfService1.NameOfPortType1"
+                        path="/BuilderUMLService/NameOfPortType1"/>
+               </Ports>
+            </Service>
+         </Services>
+         <Substitutions name="substitutions">
+            <Substitute definedElsewhere="true" target="deploy.xml" template="deploy.xml"
+                        variableName="addOn_SEI_HTTP_Service_BuilderUMLService_Port"/>
+            <Substitute definedElsewhere="true" target="deploy.xml" template="deploy.xml"
+                        variableName="global_e2e_configuration_controller_Port"/>
+         </Substitutions>
+         <Aliases/>
+      </Configuration>
+   </Configurations>
+   <Libraries/>
+</Deployment>
