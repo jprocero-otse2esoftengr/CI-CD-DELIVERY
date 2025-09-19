@@ -7,5 +7,22 @@
       <ignore element="startTime"/>
       <ignore element="stopTime"/>
    </options>
+   <testcase name="simpletest1" type="run.testcase">
+      <options>
+         <option name="run.testcase.test.host" value="ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com:11165"/>
+         <option name="run.testcase.test.username" value="jprocero"/>
+         <option name="run.testcase.test.password" value="jprocero"/>
+         <option name="run.testcase.test.control.url" value="http://ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com:21176"/>
+         <option name="run.testcase.test.trace.enabled" value="false"/>
+         <option name="run.testcase.test.request.timeout" value="180"/>
+         <option name="key.option.test.name" value="simpletest1"/>
+      </options>
+      <compare>
+         <xmlCompare compareType="equal" name="Compare simpletest1 response">
+            <reference file="${reference.folder}/BuilderUMLService.NameOfPortType1.operation1/simpletest1.response"/>
+            <test file="${output.folder}/BuilderUMLService.NameOfPortType1.operation1/simpletest1.response"/>
+         </xmlCompare>
+      </compare>
+   </testcase>
    <!-- Simple test configuration for pipeline validation -->
 </testcases>

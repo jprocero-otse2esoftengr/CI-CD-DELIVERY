@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.e2ebridge.com/xuml/BuilderUMLService/NameOfPortType1">
+   <soap:Header/>
+   <soap:Body>
+      <ns:operation1Response>
+         <ns:output>Simple test response</ns:output>
+      </ns:operation1Response>
+   </soap:Body>
+</soap:Envelope>
