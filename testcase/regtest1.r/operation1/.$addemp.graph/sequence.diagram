@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_152" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <object class="org.jgraph.graph.AttributeMap$SerializableRectangle2D" id="AttributeMap$SerializableRectangle2D0">
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D0"/>
+      <double>205.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D0"/>
+      <double>120.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>width</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D0"/>
+      <double>175.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>height</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D0"/>
+      <double>180.0</double>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <object class="org.jgraph.graph.AttributeMap$SerializableRectangle2D" id="AttributeMap$SerializableRectangle2D1">
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D1"/>
+      <double>288.5</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D1"/>
+      <double>185.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>width</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D1"/>
+      <double>8.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>height</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D1"/>
+      <double>85.0</double>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <object class="org.jgraph.graph.AttributeMap$SerializableRectangle2D" id="AttributeMap$SerializableRectangle2D2">
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D2"/>
+      <double>292.5</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D2"/>
+      <double>300.0</double>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <object class="org.jgraph.graph.AttributeMap$SerializableRectangle2D" id="AttributeMap$SerializableRectangle2D3">
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D3"/>
+      <double>205.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D3"/>
+      <double>120.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>width</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D3"/>
+      <double>175.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>height</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D3"/>
+      <double>25.0</double>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <object class="org.jgraph.graph.AttributeMap$SerializableRectangle2D" id="AttributeMap$SerializableRectangle2D4">
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D4"/>
+      <double>10.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D4"/>
+      <double>120.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>width</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D4"/>
+      <double>175.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>height</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D4"/>
+      <double>180.0</double>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <object class="org.jgraph.graph.AttributeMap$SerializableRectangle2D" id="AttributeMap$SerializableRectangle2D5">
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D5"/>
+      <double>93.5</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D5"/>
+      <double>175.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>width</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D5"/>
+      <double>8.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>height</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D5"/>
+      <double>95.0</double>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <object class="org.jgraph.graph.AttributeMap$SerializableRectangle2D" id="AttributeMap$SerializableRectangle2D6">
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D6"/>
+      <double>97.5</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D6"/>
+      <double>300.0</double>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <object class="org.jgraph.graph.AttributeMap$SerializableRectangle2D" id="AttributeMap$SerializableRectangle2D7">
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D7"/>
+      <double>10.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D7"/>
+      <double>120.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>width</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D7"/>
+      <double>175.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>height</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D7"/>
+      <double>25.0</double>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <null/>
+  </void>
+  <void method="add">
+   <object class="org.jgraph.graph.AttributeMap$SerializableRectangle2D" id="AttributeMap$SerializableRectangle2D8">
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D8"/>
+      <double>10.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D8"/>
+      <double>10.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>width</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D8"/>
+      <double>765.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+     <string>height</string>
+     <void method="set">
+      <object idref="AttributeMap$SerializableRectangle2D8"/>
+      <double>75.0</double>
+     </void>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
